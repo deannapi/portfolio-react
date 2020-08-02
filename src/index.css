@@ -10,6 +10,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1, h3 {
+  font-variant: small-caps;
+  font-family: "papyrus";
+  text-align: center;
+  margin: 0;
+  background: #eb7bc0;
+}
+
+p {
+  font-family: "Copperplate Gothic Light";
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
