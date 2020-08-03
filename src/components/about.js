@@ -1,5 +1,6 @@
 import React from 'react';
-import selfie from "../../assets/cover/selfie.JPG";
+import selfie from "../img/selfie.JPG";
+// import PropTypes from "prop-types";
 
 function About() {
     return (
@@ -7,7 +8,8 @@ function About() {
             <div className="grid-about">
                 <section className="my-5">
                     <img src={selfie} className="my-2" style={{ width: "15%" }} alt="selfie" id="selfie"></img>
-                    <p>I have a Master's of Arts degree in Mathematics and a solid knowledge for complex
+                    <p className={"myText" + this.props.pulse}>
+                        I have a Master's of Arts degree in Mathematics and a solid knowledge for complex
                         Data Analysis. Having excelled in creating data driven reports using existing and emerging
                         software tools, I have continued to refine my strengths in information technology tools, 
                         object-oriented programming, data interpretation and problem solving. Adding a Full Stack 
@@ -21,3 +23,7 @@ function About() {
 }
 
 export default About;
+
+// About.propTypes = {
+//     pulse: PropTypes.string
+// };

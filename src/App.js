@@ -1,35 +1,26 @@
-import React, { useState } from "react";
-import "./App.css";
-import Nav from "./components/nav";
+import React, { Component } from "react";
+import Header from "./components/header";
 import About from "./components/about";
-import ContactForm from "./components/contact";
+import Resume from "./components/resume";
+import Portfolio from "./components/portfolio";
+import Contact from "./components/contact";
+// import Nav from "./components/nav";
+import Footer from "./components/footer";
+import resumeInfo from "./resumeInfo";
 
-function App() {
-  const [contactSelected, setContactSelected] = useState(false);
-  const [categories] = useState([
-    { repos: "repos", description: "My applications and repositories." },
-  ]);
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
-  return (
-    <div>
-      <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
-      <main>
-        {!contactSelected ? (
-          <>
-            <About></About>
-          </>
-        ) : (
-          <ContactForm></ContactForm>
-        )}
-      </main>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Header resumeInfo={resumeInfo} />
+        <About resumeInfo={resumeInfo} />
+        <Resume resumeInfo={resumeInfo} />
+        <Portfolio resumeInfo={resumeInfo} />
+        <Contact resumeInfo={resumeInfo} />
+        <Footer resumeInfo={resumeInfo} />
+      </div>
+    );
+  }
 }
 
 export default App;
