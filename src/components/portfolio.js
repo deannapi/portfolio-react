@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 export default class Porfolio extends Component {
   render() {
-    let resumeInfo = this.props.resumeInfo;
+    let resumeData = this.props.resumeData;
     return (
       <section id="portfolio">
         <div className="row">
@@ -11,8 +11,8 @@ export default class Porfolio extends Component {
               id="portfolio-wrapper"
               className="bgrid-quarters s-bgrid-thirds cf"
             >
-              {resumeInfo.portfolio &&
-                resumeInfo.portfolio.map((item) => {
+              {resumeData.portfolio &&
+                resumeData.portfolio.map((item) => {
                   return (
                     <div className="columns portfolio-item">
                       <div className="item-wrap">

@@ -2,7 +2,7 @@ import React from "react";
  
 export default class Footer extends React.Component {
     render() {
-        let resumeInfo = this.props.resumeInfo;
+        // let resumeData = this.props.resumeData;
         return (
             <footer>
                 <div id="footer" className="container-fluid text-center">

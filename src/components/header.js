@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 export default class Header extends Component {
   render() {
-    let resumeInfo = this.props.resumeInfo;
+    let resumeData = this.props.resumeData;
     return (
       <React.Fragment>
         <header id="home">
@@ -43,14 +43,14 @@ export default class Header extends Component {
 
           <div className="row banner">
             <div className="banner-text">
-              <h1 className="responsive-headline">I am {resumeInfo.name}.</h1>
+              <h1 className="responsive-headline">I am {resumeData.name}.</h1>
               <h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
-                I am a {resumeInfo.role}.{resumeInfo.roleDescription}
+                I am a {resumeData.role}.{resumeData.roleDescription}
               </h3>
               <hr />
               <ul className="social">
-                {resumeInfo.socialLinks &&
-                  resumeInfo.socialLinks.map((item) => {
+                {resumeData.socialLinks &&
+                  resumeData.socialLinks.map((item) => {
                     return (
                       <li key={item.name}>
                         <a href={item.url} target="_blank">
