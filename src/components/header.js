@@ -1,17 +1,18 @@
 import React, { Component } from "react";
+
 export default class Header extends Component {
   render() {
-    let resumeData = this.props.resumeData;
+    let resumeInfo = this.props.resumeData;
     return (
       <React.Fragment>
         <header id="home">
           <nav id="nav-wrap">
-            <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
+            {/* <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
               Show navigation
             </a>
-            <a className="mobile-btn" href="#" title="Hide navigation">
+            <a className="mobile-btn" href="#nav-wrap" title="Hide navigation">
               Hide navigation
-            </a>
+            </a> */}
             <ul id="nav" className="nav">
               <li className="current">
                 <a className="smoothscroll" href="#home">
@@ -34,7 +35,7 @@ export default class Header extends Component {
                 </a>
               </li>
               <li>
-                <a className="smoothscroll" href="#contact">
+                <a className="smoothscroll" href="#contact-form">
                   Contact Me
                 </a>
               </li>
@@ -43,17 +44,18 @@ export default class Header extends Component {
 
           <div className="row banner">
             <div className="banner-text">
-              <h1 className="responsive-headline">I am {resumeData.name}.</h1>
-              <h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
-                I am a {resumeData.role}.{resumeData.roleDescription}
-              </h3>
+              <h1 className="responsive-headline">{resumeInfo.name}</h1>
+              {/* <h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
+                I am a {resumeInfo.role}.{resumeInfo.roleDescription}
+              </h3> */}
+              <h3>{resumeInfo.role}</h3>
               <hr />
               <ul className="social">
-                {resumeData.socialLinks &&
-                  resumeData.socialLinks.map((item) => {
+                {resumeInfo.socialLinks &&
+                  resumeInfo.socialLinks.map((item) => {
                     return (
                       <li key={item.name}>
-                        <a href={item.url} target="_blank">
+                        <a href={item.url} target="_blank" rel="noopener noreferrer">
                           <i className={item.className}></i>
                         </a>
                       </li>
@@ -71,5 +73,5 @@ export default class Header extends Component {
         </header>
       </React.Fragment>
     );
-  }
+  };
 }

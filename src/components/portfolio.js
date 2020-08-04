@@ -1,30 +1,29 @@
 import React, { Component } from "react";
+// import pswd_gen from "../../public/images";
+
 export default class Porfolio extends Component {
   render() {
-    let resumeData = this.props.resumeData;
+    let resumeInfo = this.props.resumeData;
     return (
       <section id="portfolio">
         <div className="row">
           <div className="twelve columns collapsed">
-            <h1>Check Out My Applications!</h1>
-            <div
-              id="portfolio-wrapper"
-              className="bgrid-quarters s-bgrid-thirds cf"
-            >
-              {resumeData.portfolio &&
-                resumeData.portfolio.map((item) => {
+            <h1>Projects</h1>
+            <div id="wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+              {resumeInfo.portfolio &&
+                resumeInfo.portfolio.map((item) => {
                   return (
                     <div className="columns portfolio-item">
                       <div className="item-wrap">
-                        <a href="#modal-01">
-                          <img src={`${item.imgurl}`} className="item-img" />
+                        <img src={`${item.imgurl}`} className="item-img" alt="" height="175px"/>
+                        <a href={`${item.url}`}>
                           <div className="overlay">
                             <div className="portfolio-item-meta">
-                              <h5>{item.name}</h5>
-                              <p>{item.description}</p>
+                              <h5>{`${item.name}`}</h5>
                             </div>
                           </div>
                         </a>
+                        <p>{item.description}</p>
                       </div>
                     </div>
                   );

@@ -7,7 +7,7 @@ export default class Footer extends React.Component {
             <footer>
                 <div id="footer" className="container-fluid text-center">
                     <div className="contact-grid">
-                        <h4>Follow Me:</h4>
+                        {/* <h4>Follow Me:</h4> */}
                         <ul className="a">
                             <li className="github">
                             <a href="https://github.com/deannapi"> 

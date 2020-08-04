@@ -2,7 +2,7 @@
 /* {"Dark Magenta":"802392","Purpureus":"995fa3","Cool Grey":"9a98b5","Pewter Blue":"a0b9c6","Magic Mint":"a5f8d3","Mindaro":"dbfe87"} */
 
 body {
-  margin: 0;
+  margin: 10px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -25,4 +25,70 @@ p {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* ul li {
+  list-style: none;
+  display: inline-grid;
+  letter-spacing: 20px;
+} */
+
+li {
+  /* display: inline; */
+  /* padding: 5px; */
+  list-style-type: none;
+}
+
+nav ul li {
+  padding: 30px;
+  display: inline;
+} 
+
+.contact-grid ul li {
+  display: inline;
+  padding: 10px;
+}
+
+.instagram .fab {
+  font-size: 40px;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  -webkit-background-clip: text;
+  font-weight: bold;
+  -webkit-text-fill-color: transparent;
+  padding: 3px;
+}
+
+.github .fab {
+  color: black;
+  font-size: 40px;
+  padding: 3px;
+}
+
+.linkedin .fab {
+  color: #0e76a8;
+  font-size: 40px;
+  padding: 3px;
+}
+
+.instagram .fab:hover {
+  font-size: 50px;
+}
+
+.github .fab:hover {
+  font-size: 50px;
+}
+
+.linkedin .fab:hover {
+  font-size: 50px;
+}
+
+footer {
+  color: #a1793a;
+  font-family: "Lucida Handwriting";
+  text-align: center;
+  background: #eb7bc0;
+}
+
+.bars ul li {
+  font-style: normal;
 }
