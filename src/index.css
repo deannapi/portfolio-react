@@ -15,7 +15,7 @@ h1, h3 {
   font-family: "papyrus";
   text-align: center;
   margin: 0;
-  background: #eb7bc0;
+  background: #a1793a;
 }
 
 p {
@@ -27,11 +27,17 @@ code {
     monospace;
 }
 
-/* ul li {
-  list-style: none;
-  display: inline-grid;
-  letter-spacing: 20px;
-} */
+header ul li {
+  float: right;
+}
+
+header ul li a {
+  color: #0B2027;
+}
+
+header ul li a:hover {
+  color: #D1C8E1;
+}
 
 li {
   /* display: inline; */
@@ -40,7 +46,7 @@ li {
 }
 
 nav ul li {
-  padding: 30px;
+  padding: 20px;
   display: inline;
 } 
 
@@ -86,9 +92,42 @@ footer {
   color: #a1793a;
   font-family: "Lucida Handwriting";
   text-align: center;
-  background: #eb7bc0;
+  background: #a1793a;
+}
+
+footer h5 {
+  color: #0B2027;
+  font-size: 18px;
 }
 
 .bars ul li {
   font-style: normal;
+}
+
+h4 {
+  font-family: "Copperplate Gothic Light";
+  font-size: 20px;
+}
+
+.projects ul li a {
+  font-family: "Copperplate Gothic Light";
+  color: #285AEB;
+}
+
+.projects ul li a:hover {
+  color: #d6249f;
+}
+
+.projects ul li:hover {
+  color: #d6249f;
+}
+
+.app-img:hover {
+  display: inline;
+  height: 200px;
+}
+
+.projects ul li {
+  display: inline-block;
+  padding: 7px;
 }
