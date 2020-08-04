@@ -42,11 +42,11 @@ function ContactForm() {
                     <input type="text" name="name" defaultValue={name} onChange={handleChange}></input>
                 </div>
                 <div>
-                    <label htmlFor="email">Email:</label>
+                    <label htmlFor="email">Email: </label>
                     <input type="email" name="email" defaultValue={email} onBlur={handleChange}></input>
                 </div>
                 <div>
-                    <label htmlFor="message">Message:</label>
+                    <label htmlFor="message">Message: </label>
                     <textarea name="message" rows="8" defaultValue={message} onBlur={handleChange}></textarea>
                 </div>
                 
@@ -55,7 +55,7 @@ function ContactForm() {
                             <p className="error-text">{errorMessage}</p>
                         </div>
                     )}
-                <button data-testid="btn" type="submit">Submit</button>
+                <button data-testid="btn" type="submit" className="submit-contact">Submit</button>
             </form>
         </section>
     )

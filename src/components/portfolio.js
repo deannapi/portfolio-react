@@ -22,7 +22,7 @@ export default class Porfolio extends Component {
                 <br />
                 <img src={pswd_gen} alt="" height="175px" className="app-img" />
               </a>
-              <p>Random password generator</p>
+              <p>Random password generator.</p>
             </li>
             <li>
               <a href="https://deannapi.github.io/weather-app/">

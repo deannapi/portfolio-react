@@ -27,8 +27,16 @@ code {
     monospace;
 }
 
+/* HEADER */
+header {
+  display: grid;
+}
+
+header nav {
+  background: #a1793a;
+}
 header ul li {
-  float: right;
+  justify-content: right;
 }
 
 header ul li a {
@@ -40,8 +48,6 @@ header ul li a:hover {
 }
 
 li {
-  /* display: inline; */
-  /* padding: 5px; */
   list-style-type: none;
 }
 
@@ -50,11 +56,12 @@ nav ul li {
   display: inline;
 } 
 
-.contact-grid ul li {
-  display: inline;
-  padding: 10px;
+h4 {
+  font-family: "Copperplate Gothic Light";
+  font-size: 20px;
 }
 
+/* FOOTER */
 .instagram .fab {
   font-size: 40px;
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
@@ -100,18 +107,36 @@ footer h5 {
   font-size: 18px;
 }
 
-.bars ul li {
-  font-style: normal;
+/* ABOUT ME */
+.about-me {
+  display: inline-flex;
+  align-items: center;
 }
 
-h4 {
-  font-family: "Copperplate Gothic Light";
-  font-size: 20px;
+.profile-pic {
+  border-radius: 30px;
+  margin: 10px;
+  border: #a1793a 2px solid;
+}
+
+.profile-pic:hover {
+  height: 300px;
+}
+
+.about-me p {
+  text-align: center;
+}
+
+/* PROJECTS */
+.projects {
+  margin: 10px;
+  text-align: center;
 }
 
 .projects ul li a {
   font-family: "Copperplate Gothic Light";
   color: #285AEB;
+  font-size: 18px;
 }
 
 .projects ul li a:hover {
@@ -122,12 +147,110 @@ h4 {
   color: #d6249f;
 }
 
+.projects ul li p {
+  font-size: 14px;
+}
+
 .app-img:hover {
   display: inline;
   height: 200px;
 }
 
 .projects ul li {
-  display: inline-block;
+  display: inline-table;
   padding: 7px;
+  text-align: center;
+  border-style: double;
+  border-color: #a1793a;
+  width: 350px;
+  height: 300px;
+  align-content: center;
 }
+
+/* EDUCATION */
+.education {
+  text-align: center;
+}
+
+/* SKILLS */
+.skills {
+  text-align: center;
+}
+
+.skills div {
+  display: inline-table;
+  padding: 5px 15px 5px ;
+  width: 125px;
+  height: 275px;
+  margin: 0 25px 0 25px;
+  border: #a1793a 2px solid;
+}
+
+.skills h4 {
+  padding: 3px;
+  text-align: center;
+  height: 45px;
+  margin: 3px 3px 3px 3px ;
+  width: 125px;
+  background: #0e76a8;
+}
+
+.skills ul {
+  padding: 3px 10px 3px 10px;
+  margin: 2px;
+}
+
+/* CONTACT FORM */
+.contact-grid ul li {
+  display: inline;
+  padding: 10px;
+}
+
+form {
+  text-align: center;
+}
+
+form div {
+  padding: 8px;
+}
+
+label {
+  padding: 5px;
+  font-family: "Copperplate Gothic Light";
+}
+
+input {
+  width: 30%;
+  height: 20px;
+  border: #a1793a 2px solid;
+  border-radius: 4px;
+  background-color: #aec5e8;
+}
+
+textarea {
+  width: 30%;
+  border: #a1793a 2px solid;
+  border-radius: 4px;
+  background-color: #aec5e8;
+}
+
+input:hover {
+  background-color: #cfd1d4;
+}
+
+textarea:hover {
+  background-color: #cfd1d4;
+}
+
+.submit-contact {
+  border-radius: 5px;
+  border: #a1793a 2px solid;
+  font-family: "Copperplate Gothic Light";
+  font-size: 16px;
+  background-color: #A9F8FB;
+}
+
+.submit-contact:hover {
+  background-color: #d6249f;
+}
+

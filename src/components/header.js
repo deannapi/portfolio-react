@@ -5,14 +5,8 @@ export default class Header extends Component {
     let resumeInfo = this.props.resumeData;
     return (
       <React.Fragment>
-        <header id="home">
-          <nav id="nav-wrap">
-            {/* <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
-              Show navigation
-            </a>
-            <a className="mobile-btn" href="#nav-wrap" title="Hide navigation">
-              Hide navigation
-            </a> */}
+        <header className="home">
+          <nav className="nav">
             <ul id="nav" className="nav">
               <li className="current">
                 <a className="smoothscroll" href="#home">
@@ -26,7 +20,7 @@ export default class Header extends Component {
               </li>
               <li>
                 <a className="smoothscroll" href="#resume">
-                  Resume
+                  Education
                 </a>
               </li>
               <li>
@@ -43,26 +37,9 @@ export default class Header extends Component {
           </nav>
 
           <div className="row banner">
-            <div className="banner-text">
               <h1 className="responsive-headline">{resumeInfo.name}</h1>
-              {/* <h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
-                I am a {resumeInfo.role}.{resumeInfo.roleDescription}
-              </h3> */}
               <h3>{resumeInfo.role}</h3>
-              <hr />
-              <ul className="social">
-                {resumeInfo.socialLinks &&
-                  resumeInfo.socialLinks.map((item) => {
-                    return (
-                      <li key={item.name}>
-                        <a href={item.url} target="_blank" rel="noopener noreferrer">
-                          <i className={item.className}></i>
-                        </a>
-                      </li>
-                    );
-                  })}
-              </ul>
-            </div>
+              {/* <hr /> */}
           </div>
 
           <p className="scrolldown">

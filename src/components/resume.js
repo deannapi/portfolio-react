@@ -4,84 +4,99 @@ export default class Resume extends Component {
   render() {
     const resumeInfo = this.props.resumeData;
     return (
-      <section id="resume">
-        <div className="row education">
-          <div className="three columns header-col">
-            <h1>
-              <span>Education</span>
-            </h1>
-          </div>
+      <>
+        <section id="resume">
+          <div className="row education">
+            <div className="three columns header-col">
+              <h1>
+                <span>Education</span>
+              </h1>
+            </div>
 
-          <div className="nine columns main-col">
-            {resumeInfo.education &&
-              resumeInfo.education.map((item) => {
-                return (
-                  <div className="row item">
-                    <div className="twelve columns">
-                      <h4>{item.UniversityName}</h4>
-                      <p className="info">
-                        {item.specialization}
-                        <span>&bull;</span>{" "}
-                        <em className="date">
-                          {item.MonthOfPassing} {item.YearOfPassing}
-                        </em>
-                      </p>
+            <div className="education">
+              {resumeInfo.education &&
+                resumeInfo.education.map((item) => {
+                  return (
+                    <div className="row item">
+                      <div className="twelve columns">
+                        {/* <h3>{item.UniversityName}</h3> */}
+                        <p className="info">
+                          {item.specialization}
+                          <span>&bull;</span>{" "}
+                          <em className="date">
+                            {item.MonthOfPassing} {item.YearOfPassing}
+                          </em>
+                        </p>
+                      </div>
                     </div>
-                  </div>
-                );
-              })}
-          </div>
-        </div>
-        <div className="row work">
-          <div className="nine columns main-col">
-            {resumeInfo.work &&
-              resumeInfo.work.map((item) => {
-                return (
-                  <div className="row item">
-                    <div className="twelve columns">
-                      <h3>{item.CompanyName}</h3>
-                      <p className="info">
-                        {item.specialization}
-                        <span>&bull;</span>{" "}
-                        <em className="date">
-                          {item.MonthOfLeaving} {item.YearOfLeaving}
-                        </em>
-                      </p>
-                    </div>
-                  </div>
-                );
-              })}
-          </div>
-        </div>
-
-        <div className="row skill">
-          <div className="three columns header-col">
-            <h1>
-              <span>Skills</span>
-            </h1>
-          </div>
-
-          <div className="nine columns main-col">
-            <p>{resumeInfo.skillsDescription}</p>
-
-            <div className="bars">
-              <ul className="skills">
-                {resumeInfo.skills &&
-                  resumeInfo.skills.map((item) => {
-                    return (
-                      <li>
-                        <span
-                          className={`bar-expand ${item.skillname.toLowerCase()}`}
-                        ></span>
-                        <em>{item.skillname}</em>
-                      </li>
-                    );
-                  })}
-              </ul>
+                  );
+                })}
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+
+        <section className="skills">
+          <h1>Skills</h1>
+
+          <div className="front-end">
+            <h4>Front End</h4>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS</li>
+              <li>ReactJS</li>
+              <li>JavaScript</li>
+              <li>AJAX</li>
+              <li>JSON</li>
+              <li>JQuery</li>
+            </ul>
+          </div>
+
+          <div className="back-end">
+            <h4>Back End</h4>
+            <ul>
+              <li>Python</li>
+              <li>MERN</li>
+              <li>Sequelize</li>
+              <li>Handlebars.js</li>
+              <li>R Studio</li>
+              <li>Inquirer</li>
+              <li>MongoDB</li>
+              <li>REACT</li>
+            </ul>
+          </div>
+
+          <div className="tools">
+            <h4>Tools</h4>
+            <ul>
+              <li>Visual Studio Code</li>
+              <li>Anaconda</li>
+              <li>Insomnia</li>
+              <li>Heroku</li>
+              <li>Power BI</li>
+              <li>Power Apps</li>
+              <li>MS Flow</li>
+              <li>Sharepoint</li>
+              <li>GitHub</li>
+            </ul>
+          </div>
+
+          <div className="apis">
+            <h4>Procolols & APIs</h4>
+            <ul>
+              <li>REST</li>
+              <li>GraphQL</li>
+            </ul>
+          </div>
+
+          <div className="databases">
+            <h4>Databases</h4>
+            <ul>
+              <li>MySQL</li>
+              <li>SQLite</li>
+            </ul>
+          </div>
+        </section>
+      </>
     );
-  };
+  }
 }
