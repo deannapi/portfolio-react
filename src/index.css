@@ -30,6 +30,7 @@ code {
 /* HEADER */
 header {
   display: grid;
+  
 }
 
 header nav {
@@ -172,6 +173,10 @@ footer h5 {
   text-align: center;
 }
 
+.pi-img {
+
+}
+
 /* SKILLS */
 .skills {
   text-align: center;
@@ -179,8 +184,8 @@ footer h5 {
 
 .skills div {
   display: inline-table;
-  padding: 5px 15px 5px ;
-  width: 125px;
+  padding: 5px 10px 5px ;
+  width: 150px;
   height: 275px;
   margin: 0 25px 0 25px;
   border: #a1793a 2px solid;

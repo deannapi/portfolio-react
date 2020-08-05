@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import pi from "../images/pi_black.png";
 
 export default class Resume extends Component {
 // function Resume() {
@@ -7,14 +8,12 @@ export default class Resume extends Component {
     return (
       <>
         <section className="resume">
-          <div className="row education">
-            <div className="three columns header-col">
-              <h1>
-                <span>Education</span>
+          <div className="education">
+              <h1>Education 
+                <br />
+                <img className="pi-img" src={pi} alt="pi" height="30px" width="30px" />
               </h1>
-            </div>
-
-            <div className="education">
+            
               {resumeInfo.education &&
                 resumeInfo.education.map((item) => {
                   return (
@@ -32,7 +31,6 @@ export default class Resume extends Component {
                     </div>
                   );
                 })}
-            </div>
           </div>
         </section>
 

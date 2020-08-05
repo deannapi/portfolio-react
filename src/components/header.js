@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 export default class Header extends Component {
   render() {
-    let resumeInfo = this.props.resumeData;
     return (
       <React.Fragment>
         <header className="home">
