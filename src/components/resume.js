@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 
 export default class Resume extends Component {
+// function Resume() {
   render() {
     const resumeInfo = this.props.resumeData;
     return (
       <>
-        <section id="resume">
+        <section className="resume">
           <div className="row education">
             <div className="three columns header-col">
               <h1>

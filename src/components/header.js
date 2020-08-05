@@ -37,9 +37,8 @@ export default class Header extends Component {
           </nav>
 
           <div className="row banner">
-              <h1 className="responsive-headline">{resumeInfo.name}</h1>
-              <h3>{resumeInfo.role}</h3>
-              {/* <hr /> */}
+              <h1 className="my-name">DeAnna Martinez</h1>
+              <h3>Data Analyst || Full Stack Web Developer</h3>
           </div>
 
           <p className="scrolldown">
