@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.53b42851.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.b41d7cdd.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.b41d7cdd.chunk.js.map",
+    "main.css": "/portfolio-react/static/css/main.5bf3b128.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.759d91d6.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.759d91d6.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.c94dc782.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.c94dc782.js.map",
-    "static/js/2.1903367c.chunk.js": "/portfolio-react/static/js/2.1903367c.chunk.js",
-    "static/js/2.1903367c.chunk.js.map": "/portfolio-react/static/js/2.1903367c.chunk.js.map",
+    "static/js/2.55347c1f.chunk.js": "/portfolio-react/static/js/2.55347c1f.chunk.js",
+    "static/js/2.55347c1f.chunk.js.map": "/portfolio-react/static/js/2.55347c1f.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
-    "precache-manifest.cc3126c7e713cc606dbf5120605dc499.js": "/portfolio-react/precache-manifest.cc3126c7e713cc606dbf5120605dc499.js",
+    "precache-manifest.bb0b0c3a10a82e2cec1d68b2c6e60bcd.js": "/portfolio-react/precache-manifest.bb0b0c3a10a82e2cec1d68b2c6e60bcd.js",
     "service-worker.js": "/portfolio-react/service-worker.js",
-    "static/css/main.53b42851.chunk.css.map": "/portfolio-react/static/css/main.53b42851.chunk.css.map",
-    "static/js/2.1903367c.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.1903367c.chunk.js.LICENSE.txt",
+    "static/css/main.5bf3b128.chunk.css.map": "/portfolio-react/static/css/main.5bf3b128.chunk.css.map",
+    "static/js/2.55347c1f.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.55347c1f.chunk.js.LICENSE.txt",
     "static/media/book_movie.jpg": "/portfolio-react/static/media/book_movie.1ab9ce15.jpg",
     "static/media/budget.jpg": "/portfolio-react/static/media/budget.bf81c960.jpg",
     "static/media/food_fest.jpg": "/portfolio-react/static/media/food_fest.787166f2.jpg",
@@ -25,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c94dc782.js",
-    "static/js/2.1903367c.chunk.js",
-    "static/css/main.53b42851.chunk.css",
-    "static/js/main.b41d7cdd.chunk.js"
+    "static/js/2.55347c1f.chunk.js",
+    "static/css/main.5bf3b128.chunk.css",
+    "static/js/main.759d91d6.chunk.js"
   ]
 }
