@@ -1,40 +1,44 @@
 import React, { Component } from "react";
-import pi from "../images/pi_black.png";
+// import pi from "../images/pi_black.png";
 
 export default class Resume extends Component {
-// function Resume() {
+  // function Resume() {
   render() {
     const resumeInfo = this.props.resumeData;
     return (
       <>
-        <section className="resume">
+        <section className="resume" id="resume">
           <div className="education">
-              <h1>Education 
-                <br />
-                <img className="pi-img" src={pi} alt="pi" height="30px" width="30px" />
-              </h1>
-            
-              {resumeInfo.education &&
-                resumeInfo.education.map((item) => {
-                  return (
-                    <div className="row item">
-                      <div className="twelve columns">
-                        {/* <h3>{item.UniversityName}</h3> */}
-                        <p className="info">
-                          {item.specialization}
-                          <span>&bull;</span>{" "}
-                          <em className="date">
-                            {item.MonthOfPassing} {item.YearOfPassing}
-                          </em>
-                        </p>
-                      </div>
+            <h1>Resume</h1>
+
+            <a
+              href="https://drive.google.com/file/d/1F2xuBOVTHlJwiaD8xC8mLdSnHWyBHVrF/view?usp=sharing"
+              download="Resume"
+            >
+              Download My Resume
+            </a>
+
+            {resumeInfo.education &&
+              resumeInfo.education.map((item) => {
+                return (
+                  <div className="row item">
+                    <div className="twelve columns">
+                      {/* <h3>{item.UniversityName}</h3> */}
+                      <p className="info">
+                        {item.specialization}
+                        <span>&bull;</span>{" "}
+                        <em className="date">
+                          {item.MonthOfPassing} {item.YearOfPassing}
+                        </em>
+                      </p>
                     </div>
-                  );
-                })}
+                  </div>
+                );
+              })}
           </div>
         </section>
 
-        <section className="skills">
+        <section className="skills" id="skills">
           <h1>Skills</h1>
 
           <div className="front-end">

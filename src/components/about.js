@@ -5,7 +5,7 @@ export default class About extends Component {
   render() {
     let resumeInfo = this.props.resumeData;
     return (
-      <section className="about">
+      <section className="about" id="about">
         <h3>About Me</h3>
         <div className="about-me">
             <img className="profile-pic" src={selfie} alt="selfie" height="220px"/>

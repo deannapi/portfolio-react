@@ -8,6 +8,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 h1, h3 {
@@ -16,10 +17,12 @@ h1, h3 {
   text-align: center;
   margin: 0;
   background: #a1793a;
+  color: #70043f;
 }
 
 p {
   font-family: "Copperplate Gothic Light";
+  color: white;
 }
 
 code {
@@ -29,27 +32,38 @@ code {
 
 /* HEADER */
 header {
-  display: grid;
-  
+  display: contents;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
 }
 
 header nav {
-  background: #a1793a;
+  background-color: #a1793a;
+  display: grid;
 }
+
 header ul li {
   justify-content: right;
 }
 
 header ul li a {
-  color: #0B2027;
+  color: #70043f;
+  font-variant: small-caps;
+  font-size: 18px;
 }
 
 header ul li a:hover {
-  color: #D1C8E1;
+  color: white;
 }
 
 li {
   list-style-type: none;
+  color: white;
 }
 
 nav ul li {
@@ -63,17 +77,17 @@ h4 {
 }
 
 /* FOOTER */
-.instagram .fab {
+/* .instagram .fab {
   font-size: 40px;
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
   -webkit-background-clip: text;
   font-weight: bold;
   -webkit-text-fill-color: transparent;
   padding: 3px;
-}
+} */
 
 .github .fab {
-  color: black;
+  color: white;
   font-size: 40px;
   padding: 3px;
 }
@@ -84,7 +98,11 @@ h4 {
   padding: 3px;
 }
 
-.instagram .fab:hover {
+.stack-overflow {
+  font-size: 40px;
+}
+
+.stack-overflow:hover {
   font-size: 50px;
 }
 
@@ -97,14 +115,13 @@ h4 {
 }
 
 footer {
-  color: #a1793a;
   font-family: "Lucida Handwriting";
   text-align: center;
   background: #a1793a;
 }
 
 footer h5 {
-  color: #0B2027;
+  color: #70043f;
   font-size: 18px;
 }
 
@@ -136,16 +153,17 @@ footer h5 {
 
 .projects ul li a {
   font-family: "Copperplate Gothic Light";
-  color: #285AEB;
+  color: #0a7fa6;
   font-size: 18px;
 }
 
 .projects ul li a:hover {
-  color: #d6249f;
+  color: #bd0469;
+  font-size: 22px;
 }
 
 .projects ul li:hover {
-  color: #d6249f;
+  color: #bd0469;
 }
 
 .projects ul li p {
@@ -173,11 +191,18 @@ footer h5 {
   text-align: center;
 }
 
-.pi-img {
-
-}
 
 /* SKILLS */
+.resume a{
+  color: #b54a85;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-variant: small-caps;
+}
+
+.resume a:hover{
+  color: white;
+}
+
 .skills {
   text-align: center;
 }
@@ -195,14 +220,21 @@ footer h5 {
   padding: 3px;
   text-align: center;
   height: 45px;
-  margin: 3px 3px 3px 3px ;
-  width: 125px;
-  background: #0e76a8;
+  margin: 3px 0 3px 0 ;
+  width: 100%;
+  background: #b54a85;
+  color: white;
 }
 
 .skills ul {
   padding: 3px 10px 3px 10px;
   margin: 2px;
+}
+
+.skills ul li {
+  /* font-variant: small-caps; */
+  font-family: "Copperplate Gothic Light";
+  font-size: 14px;
 }
 
 /* CONTACT FORM */
@@ -222,6 +254,7 @@ form div {
 label {
   padding: 5px;
   font-family: "Copperplate Gothic Light";
+  color: white;
 }
 
 input {
@@ -229,22 +262,23 @@ input {
   height: 20px;
   border: #a1793a 2px solid;
   border-radius: 4px;
-  background-color: #aec5e8;
+  background-color: #d4d4d4;
+  color: white;
 }
 
 textarea {
   width: 30%;
   border: #a1793a 2px solid;
   border-radius: 4px;
-  background-color: #aec5e8;
+  background-color: #d4d4d4;
 }
 
 input:hover {
-  background-color: #cfd1d4;
+  background-color: #e1f2fc;
 }
 
 textarea:hover {
-  background-color: #cfd1d4;
+  background-color: #e1f2fc;
 }
 
 .submit-contact {
@@ -252,10 +286,13 @@ textarea:hover {
   border: #a1793a 2px solid;
   font-family: "Copperplate Gothic Light";
   font-size: 16px;
-  background-color: #A9F8FB;
+  background-color: #70043f;
+  color: white;
+  font-size: 19px;
+  padding: 3px;
 }
 
 .submit-contact:hover {
-  background-color: #d6249f;
+  background-color: #a1793a;
 }
 

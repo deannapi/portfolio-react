@@ -12,7 +12,7 @@ export default class Porfolio extends Component {
   render() {
     // let resumeInfo = this.props.resumeData;
     return (
-      <section className="portfolio">
+      <section className="portfolio" id="projects">
         <h1>Projects</h1>
         <div className="projects">
           <ul>

@@ -9,15 +9,14 @@ import resumeInfo from "./resumeInfo";
 
 class App extends Component {
   render() {
-// function App() {
     return (
       <div className="App">
-        <Header />
+        <Header resumeData={resumeInfo} />
         <About resumeData={resumeInfo} />
         <Resume resumeData={resumeInfo} />
         <Portfolio resumeData={resumeInfo} />
         <Contact resumeData={resumeInfo} />
-        <Footer />
+        <Footer resumeData={resumeInfo} />
       </div>
     );
   }

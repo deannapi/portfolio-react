@@ -4,14 +4,14 @@ export default class Header extends Component {
   render() {
     return (
       <React.Fragment>
-        <header className="home">
-          <nav className="nav">
+        <header className="home" id="home">
+          <nav className="nav-wrap">
             <ul id="nav" className="nav">
-              <li className="current">
+              {/* <li className="current">
                 <a className="smoothscroll" href="#home">
                   Home
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a className="smoothscroll" href="#about">
                   About
@@ -19,11 +19,11 @@ export default class Header extends Component {
               </li>
               <li>
                 <a className="smoothscroll" href="#resume">
-                  Education
+                  Resume
                 </a>
               </li>
               <li>
-                <a className="smoothscroll" href="#portfolio">
+                <a className="smoothscroll" href="#projects">
                   Projects
                 </a>
               </li>
@@ -36,17 +36,12 @@ export default class Header extends Component {
           </nav>
 
           <div className="row banner">
-              <h1 className="my-name">DeAnna Martinez</h1>
+              <h1 className="responsive-headline">DeAnna Martinez</h1>
               <h3>Data Analyst || Full Stack Web Developer</h3>
           </div>
-
-          <p className="scrolldown">
-            <a className="smoothscroll" href="#about">
-              <i className="icon-down-circle"></i>
-            </a>
-          </p>
+              <br />
         </header>
       </React.Fragment>
     );
-  };
+  }
 }

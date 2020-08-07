@@ -1,8 +1,13 @@
 import React, { useState } from "react";
-import { validateEmail } from "../utils/helpers";
+// import { validateEmail } from "../utils/helpers";
+
+function validateEmail(email) {
+    var re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
+};
 
 function ContactForm() {
-    const [formState, setFormState] = useState({ name: '', email: '', messag: '' });
+    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
     const {name, email, message} = formState;
     const [errorMessage, setErrorMessage] = useState('');
 
@@ -34,7 +39,7 @@ function ContactForm() {
     }
 
     return(
-        <section>
+        <section className="contact-grid">
             <h1 data-testid="h1tag">Contact Me</h1>
             <form id="contact-form" onBlur={handleSubmit}>
                 <div>
@@ -42,7 +47,7 @@ function ContactForm() {
                     <input type="text" name="name" defaultValue={name} onChange={handleChange}></input>
                 </div>
                 <div>
-                    <label htmlFor="email">Email: </label>
+                    <label htmlFor="email">Your Email: </label>
                     <input type="email" name="email" defaultValue={email} onBlur={handleChange}></input>
                 </div>
                 <div>
