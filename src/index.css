@@ -35,13 +35,6 @@ header {
   display: contents;
 }
 
-.sticky {
-  position: sticky;
-  top: 0;
-  width: 100%;
-  z-index: 100;
-}
-
 header nav {
   background-color: #a1793a;
   display: grid;
@@ -69,7 +62,18 @@ li {
 nav ul li {
   padding: 20px;
   display: inline;
-} 
+  font-family: "Copperplate Gothic Light";
+}
+
+nav ul li a {
+  font-family: "Copperplate Gothic Light";
+  color: #a1793a;
+}
+
+nav ul li a:hover {
+  font-family: "Copperplate Gothic Light";
+  color: #70043f;
+}
 
 h4 {
   font-family: "Copperplate Gothic Light";
@@ -159,7 +163,7 @@ footer h5 {
 
 .projects ul li a:hover {
   color: #bd0469;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .projects ul li:hover {

@@ -3,12 +3,10 @@ import stack_ov from "../images/stack-overflow.png";
 
 export default class Footer extends React.Component {
   render() {
-    // let resumeData = this.props.resumeData;
     return (
       <footer>
         <div id="footer" className="row">
           <div className="contact-grid">
-            {/* <h4>Follow Me:</h4> */}
             <ul className="github">
               <li className="github">
                 <a href="https://github.com/deannapi">

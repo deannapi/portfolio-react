@@ -10,7 +10,6 @@ import food_fest from "../images/food_fest.jpg";
 
 export default class Porfolio extends Component {
   render() {
-    // let resumeInfo = this.props.resumeData;
     return (
       <section className="portfolio" id="projects">
         <h1>Projects</h1>
