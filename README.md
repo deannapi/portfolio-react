@@ -8,7 +8,7 @@
 # Portfolio
 My web developer portfolio that was created using REACT.
 
-[Check Out My Portfolio!](https://deannapi.github.io/portfolio-react/)
+[Check Out My Portfolio!](https://www.deannapi.com)
 
 # Description
     AS AN employer looking for candidates with experience building single-page applications
