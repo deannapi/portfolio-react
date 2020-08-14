@@ -1,3 +1,5 @@
+<div align="center">
+
 ![GitHub top language](https://img.shields.io/github/languages/top/deannapi/portfolio-react)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/deannapi/portfolio-react)
 ![GitHub repo size](https://img.shields.io/github/repo-size/deannapi/portfolio-react)
@@ -11,6 +13,8 @@ My web developer portfolio that was created using REACT.
 [Check Out My Portfolio!](https://www.deannapi.com)
 
 # Description
+</div>
+
     AS AN employer looking for candidates with experience building single-page applications
     I WANT to view a potential employee's deployed React portfolio of work samples
     SO THAT I can assess whether they're a good candidate for an open position
