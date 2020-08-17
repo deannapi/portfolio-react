@@ -33,6 +33,7 @@ code {
 /* HEADER */
 header {
   display: contents;
+  width: 100%;
 }
 
 header nav {
@@ -300,3 +301,42 @@ textarea:hover {
   background-color: #a1793a;
 }
 
+/*MEDIA QUERY FOR SMALL DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  nav {
+    width: 100%;
+  }
+}
+
+/*MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  footer {
+    width: 100%;
+  }
+  .header-main {
+    width: 100%;
+  }
+
+  header {
+    width: 100%;
+  }
+}
+
+/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  nav {
+    width: 100%;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .header-main {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+}

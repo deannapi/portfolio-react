@@ -14,10 +14,12 @@ export default function Nav(props) {
 
   return (
     <>
-    <div className="row banner">
-    <h1 className="responsive-headline">DeAnna Martinez</h1>
-    <h3>Data Analyst || Full Stack Web Developer</h3>
-  </div>
+      <div className="header-main">
+        <header>
+          <h1 className="my-name">DeAnna Martinez</h1>
+          <h3>Data Analyst || Full Stack Web Developer</h3>
+        </header>
+      </div>
       <nav>
         <ul className="flex-row">
           <li className={`mx-1 ${AboutSelected && `navActive`}`}>

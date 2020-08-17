@@ -7,6 +7,8 @@ import book_movie from "../images/book_movie.jpg";
 import motor from "../images/motor.jpg";
 import budget from "../images/budget.jpg";
 import food_fest from "../images/food_fest.jpg";
+import google_books from "../images/google_books.jpg";
+import deep_thoughts from "../images/deep_thoughts.jpg";
 
 export default class Porfolio extends Component {
   render() {
@@ -93,6 +95,32 @@ export default class Porfolio extends Component {
                 />
               </a>
               <p>Find food at a local festival.</p>
+            </li>
+            <li>
+              <a href="https://github.com/deannapi/book-search-engine">
+                Google Book Search
+                <br />
+                <img
+                  src={google_books}
+                  alt=""
+                  height="175px"
+                  className="app-img"
+                />
+              </a>
+              <p>Search for books via Google.</p>
+            </li>
+            <li>
+              <a href="https://github.com/deannapi/deep-thoughts">
+                Deep Thoughts
+                <br />
+                <img
+                  src={deep_thoughts}
+                  alt=""
+                  height="175px"
+                  className="app-img"
+                />
+              </a>
+              <p>Social media application.</p>
             </li>
           </ul>
         </div>
