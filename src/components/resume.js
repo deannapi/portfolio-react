@@ -56,6 +56,7 @@ export default function Resume() {
             <li>Inquirer</li>
             <li>MongoDB</li>
             <li>REACT</li>
+            <li>Redux</li>
           </ul>
         </div>
 
@@ -69,7 +70,6 @@ export default function Resume() {
             <li>Power BI</li>
             <li>Power Apps</li>
             <li>MS Flow</li>
-            <li>Sharepoint</li>
             <li>GitHub</li>
           </ul>
         </div>
@@ -79,6 +79,7 @@ export default function Resume() {
           <ul>
             <li>REST</li>
             <li>GraphQL</li>
+            <li>Apollo</li>
           </ul>
         </div>
 
