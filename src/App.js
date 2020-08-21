@@ -7,7 +7,7 @@ import Contact from "./components/contact";
 import Footer from "./components/footer";
 import "./App.css";
 
-function App() {
+export default function App() {
   const [ResumeSelected, setResumeSelected] = useState(false);
   const [ContactSelected, setContactSelected] = useState(false);
   const [PortfolioSelected, setPortfolioSelected] = useState(false);
@@ -30,15 +30,11 @@ function App() {
         <div>
           {!AboutSelected ? <></> : <About></About>}
           {!PortfolioSelected ? <></> : <Portfolio></Portfolio>}
-
           {!ContactSelected ? <></> : <Contact></Contact>}
-
           {!ResumeSelected ? <></> : <Resume></Resume>}
         </div>
       </main>
       <Footer></Footer>
     </div>
   );
-}
-
-export default App;
+};

@@ -21,8 +21,8 @@ export default function Nav(props) {
         </header>
       </div>
       <nav>
-        <ul className="flex-row">
-          <li className={`mx-1 ${AboutSelected && `navActive`}`}>
+        <ul className="">
+          <li className={` ${AboutSelected && `navActive`}`}>
             <a href="#about">
               <span
                 onClick={() => {
@@ -36,7 +36,7 @@ export default function Nav(props) {
               </span>
             </a>
           </li>
-          <li className={`mx-1 ${PortfolioSelected && `navActive`}`}>
+          <li className={` ${PortfolioSelected && `navActive`}`}>
             <a href="#portfolio">
               <span
                 onClick={() => {
@@ -50,7 +50,7 @@ export default function Nav(props) {
               </span>
             </a>
           </li>
-          <li className={`mx-2 ${ContactSelected && "navActive"}`}>
+          <li className={` ${ContactSelected && "navActive"}`}>
             <a href="#contact">
               <span
                 onClick={() => {
@@ -64,7 +64,7 @@ export default function Nav(props) {
               </span>
             </a>
           </li>
-          <li className={`mx-2 ${ResumeSelected && "navActive"}`}>
+          <li className={` ${ResumeSelected && "navActive"}`}>
             <a href="#resume">
               <span
                 onClick={() => {

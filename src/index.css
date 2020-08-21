@@ -1,8 +1,5 @@
-/* Object */
-/* {"Dark Magenta":"802392","Purpureus":"995fa3","Cool Grey":"9a98b5","Pewter Blue":"a0b9c6","Magic Mint":"a5f8d3","Mindaro":"dbfe87"} */
-
 body {
-  margin: 10px;
+  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -62,7 +59,7 @@ li {
 
 nav ul li {
   padding: 20px;
-  display: inline;
+  display: inline-block;
   font-family: "Copperplate Gothic Light";
 }
 
@@ -73,7 +70,7 @@ nav ul li a {
 
 nav ul li a:hover {
   font-family: "Copperplate Gothic Light";
-  color: #70043f;
+  color: #a3507e;
 }
 
 h4 {
@@ -263,43 +260,13 @@ label {
   margin: 10px;
 }
 
-input {
-  width: 30%;
-  height: 20px;
-  border: #a1793a 2px solid;
-  border-radius: 4px;
-  background-color: #d4d4d4;
-  color: white;
-}
-
-textarea {
-  width: 30%;
-  border: #a1793a 2px solid;
-  border-radius: 4px;
-  background-color: #d4d4d4;
-}
-
-input:hover {
-  background-color: #e1f2fc;
-}
-
-textarea:hover {
-  background-color: #e1f2fc;
-}
-
-.submit-contact {
-  border-radius: 5px;
-  border: #a1793a 2px solid;
+#contact-form div a {
+  color: #a1793a;
   font-family: "Copperplate Gothic Light";
-  font-size: 16px;
-  background-color: #70043f;
-  color: white;
-  font-size: 19px;
-  padding: 3px;
 }
 
-.submit-contact:hover {
-  background-color: #a1793a;
+#contact-form div a:hover{
+  color: #a3507e;
 }
 
 /*MEDIA QUERY FOR SMALL DESKTOP SCREENS AND SMALLER */
@@ -338,6 +305,10 @@ textarea:hover {
   }
 
   footer {
+    width: 100%;
+  }
+
+  body {
     width: 100%;
   }
 }
