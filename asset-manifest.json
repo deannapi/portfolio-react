@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.5bf3b128.chunk.css",
-    "main.js": "/static/js/main.e3bb7bda.chunk.js",
-    "main.js.map": "/static/js/main.e3bb7bda.chunk.js.map",
+    "main.css": "/static/css/main.fda62fba.chunk.css",
+    "main.js": "/static/js/main.12ce9e09.chunk.js",
+    "main.js.map": "/static/js/main.12ce9e09.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.55347c1f.chunk.js": "/static/js/2.55347c1f.chunk.js",
-    "static/js/2.55347c1f.chunk.js.map": "/static/js/2.55347c1f.chunk.js.map",
+    "static/js/2.1acb198f.chunk.js": "/static/js/2.1acb198f.chunk.js",
+    "static/js/2.1acb198f.chunk.js.map": "/static/js/2.1acb198f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.448e9a273597c8dcc9ccb6bf57835b36.js": "/precache-manifest.448e9a273597c8dcc9ccb6bf57835b36.js",
+    "precache-manifest.8117767e830aed9f574ce52172947b09.js": "/precache-manifest.8117767e830aed9f574ce52172947b09.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.5bf3b128.chunk.css.map": "/static/css/main.5bf3b128.chunk.css.map",
-    "static/js/2.55347c1f.chunk.js.LICENSE.txt": "/static/js/2.55347c1f.chunk.js.LICENSE.txt",
+    "static/css/main.fda62fba.chunk.css.map": "/static/css/main.fda62fba.chunk.css.map",
+    "static/js/2.1acb198f.chunk.js.LICENSE.txt": "/static/js/2.1acb198f.chunk.js.LICENSE.txt",
     "static/media/book_movie.jpg": "/static/media/book_movie.1ab9ce15.jpg",
     "static/media/budget.jpg": "/static/media/budget.bf81c960.jpg",
+    "static/media/deep_thoughts.jpg": "/static/media/deep_thoughts.085f58a5.jpg",
     "static/media/food_fest.jpg": "/static/media/food_fest.787166f2.jpg",
+    "static/media/google_books.jpg": "/static/media/google_books.0c57e248.jpg",
     "static/media/motor.jpg": "/static/media/motor.53325b8f.jpg",
     "static/media/note_taker.jpg": "/static/media/note_taker.e89718f0.jpg",
     "static/media/pswd_gen.jpg": "/static/media/pswd_gen.59b88d53.jpg",
@@ -25,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
-    "static/js/2.55347c1f.chunk.js",
-    "static/css/main.5bf3b128.chunk.css",
-    "static/js/main.e3bb7bda.chunk.js"
+    "static/js/2.1acb198f.chunk.js",
+    "static/css/main.fda62fba.chunk.css",
+    "static/js/main.12ce9e09.chunk.js"
   ]
 }
