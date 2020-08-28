@@ -42,6 +42,7 @@ export default function Resume() {
             <li>AJAX</li>
             <li>JSON</li>
             <li>JQuery</li>
+            <li>Semantic UI React</li>
           </ul>
         </div>
 
@@ -88,6 +89,14 @@ export default function Resume() {
           <ul>
             <li>MySQL</li>
             <li>SQLite</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Other</h4>
+          <ul>
+            <li>Progressive Web Application</li>
+            <li>Service Worker</li>
           </ul>
         </div>
       </section>
