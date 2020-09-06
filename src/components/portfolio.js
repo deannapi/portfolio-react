@@ -134,6 +134,7 @@ export default class Porfolio extends Component {
                   className="app-img"
                 />
               </a>
+              <p>Keep track of your chores and share them with family.</p>
             </li>
           </ul>
         </div>
