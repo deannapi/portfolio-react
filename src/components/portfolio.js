@@ -9,6 +9,7 @@ import budget from "../images/budget.jpg";
 import food_fest from "../images/food_fest.jpg";
 import google_books from "../images/google_books.jpg";
 import deep_thoughts from "../images/deep_thoughts.jpg";
+import honey_do from "../images/honeydo.jpg";
 
 export default class Porfolio extends Component {
   render() {
@@ -121,6 +122,18 @@ export default class Porfolio extends Component {
                 />
               </a>
               <p>Social media application.</p>
+            </li>
+            <li>
+              <a href="https://honey-do-list.herokuapp.com/">
+                Honey Do List
+                <br />
+                <img 
+                  src={honey_do}
+                  alt=""
+                  height="175px"
+                  className="app-img"
+                />
+              </a>
             </li>
           </ul>
         </div>
