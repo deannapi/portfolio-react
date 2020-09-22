@@ -15,7 +15,8 @@ export default function About() {
             Mathematics. Equipped with a diverse skill-set and proven ability to
             deliver desired results. I am accomplished in the development of
             algorithms, problem solving and building responsive websites and
-            applications.
+            applications. With a strong knowledge of HTML, CSS and creating back-end connections,
+            I am confident that I will fulfill the duties and skills required for a developer role.
           </p>
         </div>
       </div>
