@@ -1,5 +1,6 @@
 import React from "react";
 import stack_ov from "../images/stack-overflow.png";
+import harp_img from "../img/harp-icon.png";
 
 export default class Footer extends React.Component {
   render() {
@@ -16,13 +17,18 @@ export default class Footer extends React.Component {
               <li className="stack-overflow">
                 <a href="https://stackoverflow.com/users/11610155/deanna-martinez">
                   <i>
-                    <img src={stack_ov} height="40px" alt=""></img>
+                    <img src={stack_ov} height="40px" alt="stackov" className="stackov"></img>
                   </i>
                 </a>
               </li>
               <li className="linkedin">
                 <a href="https://www.linkedin.com/in/deanna-martinez-63539a137/">
                   <i className="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li className="harp">
+                <a href="https://www.harpbydeanna.com">
+                  <img className="harp-icon" src={harp_img} alt="harp" height="40px"></img>
                 </a>
               </li>
             </ul>

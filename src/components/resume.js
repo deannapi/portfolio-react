@@ -8,7 +8,7 @@ export default function Resume() {
           <h1>Resume</h1>
 
           <a
-            href="https://drive.google.com/file/d/1F2xuBOVTHlJwiaD8xC8mLdSnHWyBHVrF/view?usp=sharing"
+            href="https://drive.google.com/file/d/11JGj68zRdn7CB9cwSwq3BoypIQ0jqeQt/view?usp=sharing"
             download="Resume"
           >
             Download My Resume
@@ -23,6 +23,10 @@ export default function Resume() {
               <p className="school-name">
                 Master's of Arts in Mathematics
                 <span>&bull;</span> <em className="date">May 2013</em>
+              </p>
+              <p className="school-name">
+                Full Stack Web Developer Certificate
+                <span>&bull;</span> <em className="date">September 2020</em>
               </p>
             </div>
           </div>
@@ -43,6 +47,9 @@ export default function Resume() {
             <li>JSON</li>
             <li>JQuery</li>
             <li>Semantic UI React</li>
+            <li>Angular</li>
+            <li>BootStrap</li>
+            <li>Redux</li>
           </ul>
         </div>
 
@@ -51,13 +58,8 @@ export default function Resume() {
           <ul>
             <li>Python</li>
             <li>MERN</li>
-            <li>Sequelize</li>
-            <li>Handlebars.js</li>
             <li>R Studio</li>
-            <li>Inquirer</li>
-            <li>MongoDB</li>
-            <li>REACT</li>
-            <li>Redux</li>
+            
           </ul>
         </div>
 
@@ -68,10 +70,17 @@ export default function Resume() {
             <li>Anaconda</li>
             <li>Insomnia</li>
             <li>Heroku</li>
-            <li>Power BI</li>
-            <li>Power Apps</li>
-            <li>MS Flow</li>
+            <li>MS Excel</li>
+            <li>MS Access</li>
+            <li>MS PowerBI</li>
+            <li>MS PowerApps</li>
+            <li>MS Automate</li>
+            <li>Mathematica</li>
+            <li>Tableau</li>
+            <li>Spotfire</li>
+
             <li>GitHub</li>
+            <li>Firebase</li>
           </ul>
         </div>
 
@@ -89,6 +98,8 @@ export default function Resume() {
           <ul>
             <li>MySQL</li>
             <li>SQLite</li>
+            <li>MongoDB</li>
+            <li>NoSQL</li>
           </ul>
         </div>
 
