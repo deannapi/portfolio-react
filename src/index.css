@@ -197,6 +197,10 @@ footer h5 {
   align-content: center;
 }
 
+.projects span {
+  margin: 3px;
+}
+
 /* EDUCATION */
 .education {
   text-align: center;
