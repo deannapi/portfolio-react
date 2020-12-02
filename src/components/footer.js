@@ -6,9 +6,8 @@ export default class Footer extends React.Component {
   render() {
     return (
       <footer>
-        <div id="footer" className="row">
-          <div className="contact-grid">
-            <ul className="github">
+          <div className="row">
+            <ul>
               <li className="github">
                 <a
                   href="https://github.com/deannapi"
@@ -54,14 +53,10 @@ export default class Footer extends React.Component {
                 </a>
               </li>
             </ul>
+          </div>
+          <div className="row">
             <h5 className="footer-name">DeAnna Martinez &copy; 2020</h5>
           </div>
-          <div id="go-top">
-            <a className="smoothscroll" title="Back to Top" href="#home">
-              <i className="icon-up-open" />
-            </a>
-          </div>
-        </div>
       </footer>
     );
   }
