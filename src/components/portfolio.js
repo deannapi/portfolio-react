@@ -14,7 +14,7 @@ import honey_do from "../images/honeydo.jpg";
 export default class Porfolio extends Component {
   render() {
     return (
-      <section className="portfolio" id="projects">
+      <div className="portfolio" id="projects">
         <h1>Projects</h1>
         <div className="projects">
           <ul>
@@ -286,7 +286,7 @@ export default class Porfolio extends Component {
             </li>
           </ul>
         </div>
-      </section>
+      </div>
     );
   }
 }

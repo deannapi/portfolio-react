@@ -3,7 +3,7 @@ import React from "react";
 export default function Resume() {
   return (
     <>
-      <section className="resume" id="resume">
+      <div className="resume" id="resume">
         <div className="education">
           <h1>Resume</h1>
 
@@ -14,8 +14,7 @@ export default function Resume() {
             Download My Resume
           </a>
 
-          <div className="row item">
-            <div className="twelve columns">
+          <div className="degrees">
               <p className="school-name">
                 Bachelor's of Science in Mathematics
                 <span>&bull;</span> <em className="date">May 2008</em>
@@ -28,12 +27,11 @@ export default function Resume() {
                 Full Stack Web Developer Certificate
                 <span>&bull;</span> <em className="date">September 2020</em>
               </p>
-            </div>
           </div>
         </div>
-      </section>
+      </div>
 
-      <section className="skills" id="skills">
+      <div className="skills" id="skills">
         <h1>Skills</h1>
 
         <div className="front-end">
@@ -106,11 +104,11 @@ export default function Resume() {
         <div>
           <h4>Other</h4>
           <ul>
-            <li>Progressive Web Application</li>
+            <li>PWA</li>
             <li>Service Worker</li>
           </ul>
         </div>
-      </section>
+      </div>
     </>
   );
 }
