@@ -10,6 +10,8 @@ import food_fest from "../images/food_fest.jpg";
 import google_books from "../images/google_books.jpg";
 import deep_thoughts from "../images/deep_thoughts.jpg";
 import honey_do from "../images/honeydo.jpg";
+import rmbw from "../images/Restore_Logo_Final trimmed.png";
+import harp from '../images/harp-icon.png';
 
 export default class Porfolio extends Component {
   render() {
@@ -18,6 +20,55 @@ export default class Porfolio extends Component {
         <h1>Projects</h1>
         <div className="projects">
           <ul>
+          <li>
+              <a
+                href="https://www.restoremassageandbodywork.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Restore Massage and Bodywork
+                <br />
+                <img src={rmbw} alt="" height="175px" className="app-img" />
+              </a>
+              <p>Massage Therapist Business Website</p>
+              <a
+                href="https://github.com/deannapi/restoremassage"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <span className="badge badge-pill badge-primary">HTML</span>
+              <span className="badge badge-pill badge-secondary">CSS</span>
+              <span className="badge badge-pill badge-success">JavaScript</span>
+              <span className="badge badge-pill badge-dark">REACT</span>
+            </li>
+            <li>
+              <a
+                href="https://www.harpbydeanna.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Harp By DeAnna
+                <br />
+                <img src={harp} alt="" height="175px" className="app-img" />
+              </a>
+              <p>My Harp Music Gig Website</p>
+              <a
+                href="https://github.com/deannapi/harpbydeanna"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <span className="badge badge-pill badge-primary">HTML</span>
+              <span className="badge badge-pill badge-secondary">CSS</span>
+              <span className="badge badge-pill badge-success">JavaScript</span>
+              <span className="badge badge-pill badge-danger">jQuery</span>
+              <span className="badge badge-pill badge-light">Express.js</span>
+              <span className="badge badge-pill badge-warning">Node.js</span>
+              <span className="badge badge-pill badge-dark">REACT</span>
+            </li>
             <li>
               <a
                 href="https://deannapi.github.io/password-generator/"
