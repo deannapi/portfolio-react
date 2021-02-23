@@ -17,7 +17,7 @@ export default function Nav(props) {
       <div className="header-main">
         <header>
           <h1 className="my-name">DeAnna Martinez</h1>
-          <h3>Data Analyst || Full Stack Web Developer</h3>
+          {/* <h3>Data Analyst || Full Stack Web Developer</h3> */}
         </header>
       </div>
       <nav>

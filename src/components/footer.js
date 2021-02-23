@@ -54,9 +54,9 @@ export default class Footer extends React.Component {
               </li>
             </ul>
           </div>
-          <div className="row">
+          {/* <div className="row">
             <h5 className="footer-name">DeAnna Martinez &copy; 2020</h5>
-          </div>
+          </div> */}
       </footer>
     );
   }

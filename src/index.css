@@ -14,7 +14,7 @@ h1, h3 {
   text-align: center;
   margin: 0;
   background: #a1793a;
-  color: #70043f;
+  color: whitesmoke;
 }
 
 p {
@@ -76,6 +76,11 @@ nav ul li a:hover {
 h4 {
   font-family: "Copperplate Gothic Light";
   font-size: 20px;
+}
+
+h5 {
+  text-align: center;
+  color: white;
 }
 
 /* FOOTER */
