@@ -6,7 +6,7 @@ export default class Footer extends React.Component {
   render() {
     return (
       <footer>
-          <div className="row">
+          {/* <div className="row"> */}
             <ul>
               <li className="github">
                 <a
@@ -53,7 +53,7 @@ export default class Footer extends React.Component {
                 </a>
               </li>
             </ul>
-          </div>
+          {/* </div> */}
           {/* <div className="row">
             <h5 className="footer-name">DeAnna Martinez &copy; 2020</h5>
           </div> */}

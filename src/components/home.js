@@ -21,7 +21,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="about" id="about">
+    <div className="about-me">
       <h3>
         <TextTransition
           text={TEXTS[index % TEXTS.length]}
@@ -30,7 +30,7 @@ export default function Home() {
         />
       </h3>
 
-      <div className="about-me">
+      {/* <div className="about-me"> */}
         <img className="profile-pic" src={selfie} alt="selfie" height="220px" />
         <div>
           <p>
@@ -47,7 +47,7 @@ export default function Home() {
             and skills required for a developer role.
           </p>
         </div>
-      </div>
+      {/* </div> */}
     </div>
   );
 }

@@ -6,7 +6,7 @@ export default class Resume extends React.Component {
       <>
         <div className="resume" id="resume">
           <div className="education">
-            <h1>Resume</h1>
+            <h2>Resume</h2>
 
             <a
               href="https://drive.google.com/file/d/11JGj68zRdn7CB9cwSwq3BoypIQ0jqeQt/view?usp=sharing"
@@ -33,7 +33,7 @@ export default class Resume extends React.Component {
         </div>
 
         <div className="skills" id="skills">
-          <h1>Skills</h1>
+          <h2>Skills</h2>
 
           <div className="front-end">
             <h4>Front End</h4>

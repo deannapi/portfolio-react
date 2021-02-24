@@ -1,18 +1,22 @@
-html,body, #root {
+html,
+body,
+#root {
   height: 100%;
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
 }
 
-h1, h3 {
+h1,
+h2,
+h3 {
   font-variant: small-caps;
   font-family: "papyrus";
   text-align: center;
@@ -27,8 +31,12 @@ p {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+ul {
+  padding: 0;
 }
 
 /* HEADER */
@@ -37,44 +45,20 @@ header {
   width: 100%;
 }
 
-header nav {
-  background-color: #a1793a;
-  display: grid;
+.links {
+  text-align: center;
+  display: block;
+  padding-right: 10px;
+  color: #a1793a;
 }
 
-header ul li {
-  justify-content: right;
-}
-
-header ul li a {
-  color: #70043f;
-  font-variant: small-caps;
-  font-size: 18px;
-}
-
-header ul li a:hover {
-  color: white;
+.links:hover {
+  color: whitesmoke;
 }
 
 li {
   list-style-type: none;
   color: white;
-}
-
-nav ul li {
-  padding: 20px;
-  display: inline-block;
-  font-family: "Copperplate Gothic Light";
-}
-
-nav ul li a {
-  font-family: "Copperplate Gothic Light";
-  color: #a1793a;
-}
-
-nav ul li a:hover {
-  font-family: "Copperplate Gothic Light";
-  color: #a3507e;
 }
 
 h4 {
@@ -151,6 +135,9 @@ footer .row {
   display: inline;
 }
 
+footer ul {
+  padding: 0%;
+}
 footer ul li {
   display: inline-flex;
   padding: 10px;
@@ -218,7 +205,7 @@ footer h5 {
   text-align: center;
   border-style: double;
   border-color: #a1793a;
-  width: 350px;
+  width: 300px;
   height: 300px;
   align-content: center;
 }
@@ -227,20 +214,36 @@ footer h5 {
   margin: 3px;
 }
 
+.card {
+  border-style: double 12px #a1793a;
+  /* border-color: #a1793a 8px; */
+  width: 18rem;
+  align-items: center;
+  text-align: center;
+}
+
+.card-body h5, p, ul li, a{
+  color: black;
+}
+
+.card-img-top {
+  width: 175px;
+}
+
 /* EDUCATION */
 .education {
   text-align: center;
 }
 
-
 /* SKILLS */
-.resume a{
+.resume a {
   color: #b54a85;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-variant: small-caps;
 }
 
-.resume a:hover{
+.resume a:hover {
   color: white;
 }
 
@@ -250,7 +253,7 @@ footer h5 {
 
 .skills div {
   display: inline-table;
-  padding: 5px 10px 5px ;
+  padding: 5px 10px 5px;
   width: 150px;
   height: 275px;
   margin: 0 25px 0 25px;
@@ -261,7 +264,7 @@ footer h5 {
   padding: 3px;
   text-align: center;
   height: 45px;
-  margin: 3px 0 3px 0 ;
+  margin: 3px 0 3px 0;
   width: 100%;
   background: #b54a85;
   color: white;
@@ -303,15 +306,12 @@ label {
   font-family: "Copperplate Gothic Light";
 }
 
-#contact-form div a:hover{
+#contact-form div a:hover {
   color: #a3507e;
 }
 
 /*MEDIA QUERY FOR SMALL DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-  nav {
-    width: 100%;
-  }
 }
 
 /*MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -319,26 +319,61 @@ label {
   footer {
     width: 100%;
   }
-  .header-main {
-    width: 100%;
-  }
 
   header {
     width: 100%;
+  }
+
+  .links {
+    display: inline-block;
+  }
+
+  .about-me {
+    font-size: 12px;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .profile-pic {
+    height: 175px;
+  }
+
+  h1 {
+    font-size: xx-large;
+  }
+  h2 {
+    font-size: larger;
+  }
+
+  h3 {
+    font-size: large;
+  }
+
+  .projects img {
+    height: 100px;
+  }
+
+  .projects ul li {
+    /* width: fit-content; */
+    height: fit-content;
+    display: inline-block;
+  }
+
+  .projects ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    /* width: 100%; */
+    height: 100%;
   }
 }
 
 /*MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-  nav {
-    width: 100%;
-  }
-
   header {
-    width: 100%;
-  }
-
-  .header-main {
     width: 100%;
   }
 
@@ -347,6 +382,7 @@ label {
   }
 
   body {
-    width: 100%;
+    /* width: 100%; */
+    height: 100%;
   }
 }
