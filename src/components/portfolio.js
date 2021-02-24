@@ -13,7 +13,7 @@ import honey_do from "../images/honeydo.jpg";
 import rmbw from "../images/Restore_Logo_Final trimmed.png";
 import harp from '../images/harp-icon.png';
 
-export default class Porfolio extends Component {
+export default class Portfolio extends Component {
   render() {
     return (
       <div className="portfolio" id="projects">
@@ -36,7 +36,7 @@ export default class Porfolio extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fab fa-github"></i>
+                <i className="fab fa-github"></i>
               </a>
               <span className="badge badge-pill badge-primary">HTML</span>
               <span className="badge badge-pill badge-secondary">CSS</span>
@@ -59,7 +59,7 @@ export default class Porfolio extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fab fa-github"></i>
+                <i className="fab fa-github"></i>
               </a>
               <span className="badge badge-pill badge-primary">HTML</span>
               <span className="badge badge-pill badge-secondary">CSS</span>
@@ -85,7 +85,7 @@ export default class Porfolio extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fab fa-github"></i>
+                <i className="fab fa-github"></i>
               </a>
               <span className="badge badge-pill badge-primary">HTML</span>
               <span className="badge badge-pill badge-secondary">CSS</span>
@@ -107,7 +107,7 @@ export default class Porfolio extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fab fa-github"></i>
+                <i className="fab fa-github"></i>
               </a>
               <span className="badge badge-pill badge-primary">HTML</span>
               <span className="badge badge-pill badge-secondary">CSS</span>
@@ -131,7 +131,7 @@ export default class Porfolio extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fab fa-github"></i>
+                <i className="fab fa-github"></i>
               </a>
               <span className="badge badge-pill badge-primary">HTML</span>
               <span className="badge badge-pill badge-secondary">CSS</span>
@@ -159,7 +159,7 @@ export default class Porfolio extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fab fa-github"></i>
+                <i className="fab fa-github"></i>
               </a>
               <span className="badge badge-pill badge-primary">HTML</span>
               <span className="badge badge-pill badge-secondary">CSS</span>
@@ -187,7 +187,7 @@ export default class Porfolio extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fab fa-github"></i>
+                <i className="fab fa-github"></i>
               </a>
               <span className="badge badge-pill badge-dark">JSON</span>
               <span className="badge badge-pill badge-light">Express.js</span>
@@ -209,7 +209,7 @@ export default class Porfolio extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fab fa-github"></i>
+                <i className="fab fa-github"></i>
               </a>
               <span className="badge badge-pill badge-dark">MySQL</span>
               <span className="badge badge-pill badge-dark">Handlebars.js</span>
@@ -232,7 +232,7 @@ export default class Porfolio extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fab fa-github"></i>
+                <i className="fab fa-github"></i>
               </a>
               <span className="badge badge-pill badge-dark">NoSQL</span>
               <span className="badge badge-pill badge-dark">MongoDB</span>
@@ -260,7 +260,7 @@ export default class Porfolio extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fab fa-github"></i>
+                <i className="fab fa-github"></i>
               </a>
               <span className="badge badge-pill badge-success">JavaScript</span>
               <span className="badge badge-pill badge-warning">Node.js</span>
@@ -286,7 +286,7 @@ export default class Porfolio extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fab fa-github"></i>
+                <i className="fab fa-github"></i>
               </a>
               <span className="badge badge-pill badge-dark">MERN</span>
             </li>
@@ -311,7 +311,7 @@ export default class Porfolio extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fab fa-github"></i>
+                <i className="fab fa-github"></i>
               </a>
               <span className="badge badge-pill badge-dark">MERN</span>
             </li>
@@ -331,7 +331,7 @@ export default class Porfolio extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fab fa-github"></i>
+                <i className="fab fa-github"></i>
               </a>
               <span className="badge badge-pill badge-dark">MERN</span>
             </li>

@@ -1,26 +1,51 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from './components/home';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { PageTransition } from "@steveeeie/react-page-transition";
+import Home from "./components/home";
 import Header from "./components/header";
-import About from "./components/about";
 import Resume from "./components/resume";
 import Portfolio from "./components/portfolio";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
 import "./App.css";
 
+const Links = () => (
+  <>
+    <Link to="/">Home</Link>
+    <Link to="/resume">Resume</Link>
+    <Link to="/portfolio">Portfolio</Link>
+    <Link to="/contact">Contact</Link>
+  </>
+);
+
+// const Home = (props) => <h1>Home</h1>;
+// const Resume = (props) => <h1>Resume</h1>;
+// const Portfolio = (props) => <h1>Portfolio</h1>;
+// const Contact = (props) => <h1>Contact</h1>;
+
 export default function App() {
   return (
     <Router>
       <Header></Header>
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/home" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/resume" component={Resume} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/contact" component={Contact} />
-      </Switch>
+      <Links />
+      <Route
+        render={({ location }) => {
+          return (
+            <PageTransition
+              preset="moveToLeftFromRight"
+              transitionKey={location.pathname}
+            >
+              <Switch location={location}>
+                <Route exact path="/" component={Home} />
+                <Route exact path="/home" component={Home} />
+                <Route exact path="/resume" component={Resume} />
+                <Route exact path="/portfolio" component={Portfolio} />
+                <Route exact path="/contact" component={Contact} />
+              </Switch>
+            </PageTransition>
+          );
+        }}
+      />
       <Footer></Footer>
     </Router>
   );
