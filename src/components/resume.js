@@ -15,18 +15,18 @@ export default function Resume() {
           </a>
 
           <div className="degrees">
-              <p className="school-name">
-                Bachelor's of Science in Mathematics
-                <span>&bull;</span> <em className="date">May 2008</em>
-              </p>
-              <p className="school-name">
-                Master's of Arts in Mathematics
-                <span>&bull;</span> <em className="date">May 2013</em>
-              </p>
-              <p className="school-name">
-                Full Stack Web Developer Certificate
-                <span>&bull;</span> <em className="date">September 2020</em>
-              </p>
+            <p className="school-name">
+              Full Stack Web Developer Certificate
+              <span>&bull;</span> <em className="date">September 2020</em>
+            </p>
+            <p className="school-name">
+              Master's of Arts in Mathematics
+              <span>&bull;</span> <em className="date">May 2013</em>
+            </p>
+            <p className="school-name">
+              Bachelor's of Science in Mathematics
+              <span>&bull;</span> <em className="date">May 2008</em>
+            </p>
           </div>
         </div>
       </div>
@@ -57,7 +57,6 @@ export default function Resume() {
             <li>Python</li>
             <li>MERN</li>
             <li>R Studio</li>
-            
           </ul>
         </div>
 

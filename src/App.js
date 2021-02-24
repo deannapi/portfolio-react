@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from './components/home';
 import Header from "./components/header";
 import About from "./components/about";
 import Resume from "./components/resume";
@@ -8,33 +10,18 @@ import Footer from "./components/footer";
 import "./App.css";
 
 export default function App() {
-  const [ResumeSelected, setResumeSelected] = useState(false);
-  const [ContactSelected, setContactSelected] = useState(false);
-  const [PortfolioSelected, setPortfolioSelected] = useState(false);
-  const [AboutSelected, setAboutSelected] = useState(true);
-
   return (
-    <div>
-      <Header
-        ResumeSelected={ResumeSelected}
-        setResumeSelected={setResumeSelected}
-        ContactSelected={ContactSelected}
-        setContactSelected={setContactSelected}
-        PortfolioSelected={PortfolioSelected}
-        setPortfolioSelected={setPortfolioSelected}
-        AboutSelected={AboutSelected}
-        setAboutSelected={setAboutSelected}
-      ></Header>
-
-      <main>
-        <div>
-          {!AboutSelected ? <></> : <About></About>}
-          {!PortfolioSelected ? <></> : <Portfolio></Portfolio>}
-          {!ContactSelected ? <></> : <Contact></Contact>}
-          {!ResumeSelected ? <></> : <Resume></Resume>}
-        </div>
-      </main>
+    <Router>
+      <Header></Header>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/home" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/resume" component={Resume} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/contact" component={Contact} />
+      </Switch>
       <Footer></Footer>
-    </div>
+    </Router>
   );
-};
+}
