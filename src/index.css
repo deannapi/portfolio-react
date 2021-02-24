@@ -2,6 +2,7 @@ html,
 body,
 #root {
   height: 100%;
+  clear: both;
 }
 
 body {
@@ -47,9 +48,11 @@ header {
 
 .links {
   text-align: center;
-  display: block;
+  /* display: block; */
   padding-right: 10px;
+  margin-left: 15px;
   color: #a1793a;
+  font-variant: small-caps;
 }
 
 .links:hover {
@@ -127,12 +130,7 @@ footer {
   left: 0;
   width: 100%;
   flex-shrink: 0;
-  /* padding-left: 300px; */
-}
-
-footer .row {
-  text-align: center;
-  display: inline;
+  margin-top: 12px;
 }
 
 footer ul {
@@ -144,13 +142,13 @@ footer ul li {
   list-style: none;
 }
 
-footer h5 {
-  color: #70043f;
-  font-size: 18px;
-}
-
 /* ABOUT ME */
 .about-me {
+  /* display: inline-flex; */
+  align-items: center;
+}
+
+.about-body {
   display: inline-flex;
   align-items: center;
 }
@@ -169,65 +167,67 @@ footer h5 {
   text-align: center;
 }
 
+.about-me h3 {
+  padding: 5px;
+}
+
 /* PROJECTS */
 .projects {
   margin: 0px;
   text-align: center;
-}
-
-.projects ul li a {
-  font-family: "Copperplate Gothic Light";
-  color: #0a7fa6;
-  font-size: 18px;
-}
-
-.projects ul li a:hover {
-  color: #bd0469;
-  font-size: 24px;
-}
-
-.projects ul li:hover {
-  color: #bd0469;
-}
-
-.projects ul li p {
-  font-size: 14px;
-}
-
-.app-img:hover {
-  display: inline;
-  height: 200px;
-}
-
-.projects ul li {
-  display: inline-table;
-  padding: 7px;
-  text-align: center;
-  border-style: double;
-  border-color: #a1793a;
-  width: 300px;
-  height: 300px;
-  align-content: center;
-}
-
-.projects span {
-  margin: 3px;
+  /* display:contents; */
+  place-items:initial;
 }
 
 .card {
-  border-style: double 12px #a1793a;
+  border: #a1793a double 6px;
+  border-radius: 25px;
   /* border-color: #a1793a 8px; */
-  width: 18rem;
+  width: 15rem;
   align-items: center;
   text-align: center;
+  background-color: black;
+  margin: 10px;
 }
 
-.card-body h5, p, ul li, a{
-  color: black;
+.card-title a {
+  font-family: "Copperplate Gothic Light";
+  font-size: 18px;
+  color: #a1793a;
+}
+
+.card-title a:hover {
+  color: whitesmoke;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.card-body p, ul li, a{
+  color: white;
 }
 
 .card-img-top {
-  width: 175px;
+  width: 12em;
+  /* height: 150px; */
+}
+
+.fa-github{
+  font-size: 26px;
+  color: #a1793a;
+}
+
+.fa-github:hover{
+  color: whitesmoke;
+}
+
+#harp-card {
+  width: 5em;
+}
+
+.badge {
+  margin: 3px;
 }
 
 /* EDUCATION */
