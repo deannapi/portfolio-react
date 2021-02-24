@@ -175,8 +175,6 @@ footer ul li {
 .projects {
   margin: 0px;
   text-align: center;
-  /* display:contents; */
-  place-items:initial;
 }
 
 .card {

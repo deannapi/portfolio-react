@@ -1,30 +1,30 @@
 import React from "react";
-import honey_do from "../images/honeydo.jpg";
+import deep_thoughts from "../images/deep_thoughts.jpg";
 
-export default class HoneyDo extends React.Component {
+export default class DeepThoughts extends React.Component {
   render() {
     return (
       <div className="card">
         <div className="card-body">
           <h5 className="card-title">
             <a
-              href="https://honey-do-list.herokuapp.com/"
+              href="https://github.com/deannapi/deep-thoughts"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Honey Do List
+              Deep Thoughts
             </a>
           </h5>
-          <img className="card-img-top" src={honey_do} alt="" />
-          <p className="card-text">Keep track of your chores and share them with family</p>
+          <img className="card-img-top" src={deep_thoughts} alt="" />
+          <p className="card-text">Social media application</p>
         </div>
         <ul>
-        <span className="badge badge-pill badge-dark">MERN</span>
+          <span className="badge badge-pill badge-dark">MERN</span>
         </ul>
 
         <div className="card-body">
           <a
-            href="https://github.com/deannapi/honey-do-list"
+            href="https://github.com/deannapi/deep-thoughts"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -35,4 +35,3 @@ export default class HoneyDo extends React.Component {
     );
   }
 }
-
