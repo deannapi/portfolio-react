@@ -3,7 +3,8 @@ import work_day from "../images/workday.jpg";
 export default class Work_Day extends React.Component {
   render() {
     return (
-      <div className="card">
+      <>
+        {/* <div className="card">
         <div className="card-body">
           <h5 className="card-title">
             <a
@@ -33,7 +34,54 @@ export default class Work_Day extends React.Component {
             <i className="fab fa-github"></i>
           </a>
         </div>
-      </div>
+      </div> */}
+
+        <div className="col-md-4 col-sm-6 col-xs-12">
+          <article className="material-card Cyan">
+            <h2>
+              <span>Work Day Scheduler</span>
+            </h2>
+            <div className="mc-content">
+              <div className="img-container">
+                <img
+                  className="img-responsive"
+                  src={work_day}
+                  alt=""
+                  // style={{ borderRadius: "46px" }}
+                />
+              </div>
+              <div className="mc-description">
+                Schedule tasks by the hour for your workday
+                <ul>
+                <span className="badge badge-pill badge-primary">HTML</span>
+              <span className="badge badge-pill badge-secondary">CSS</span>
+              <span className="badge badge-pill badge-success">JavaScript</span>
+              <span className="badge badge-pill badge-danger">jQuery</span>
+                </ul>
+              </div>
+            </div>
+            <a className="mc-btn-action">
+              <i className="fa fa-bars"></i>
+            </a>
+            <div className="mc-footer">
+              <a
+                href="https://github.com/deannapi/work-day-scheduler"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-github"></i>
+              </a>
+              <a
+                href="https://deannapi.github.io/work-day-scheduler/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fas fa-globe"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+      </>
     );
   }
 }

@@ -16,40 +16,30 @@ import BUDGET from "../portfolio/budget_tracker";
 import DeepThoughts from "../portfolio/deep_thought";
 import GoogleBooks from "../portfolio/google_books";
 
-import harp_img from '../images/harp-icon.png';
-
 export default class Portfolio extends React.Component {
   render() {
     return (
       <>
         <h2>Portfolio</h2>
         <div className="portfolio-carousel">
-          <Carousel autoPlay interval="5000" transitionTime="5000" infiniteLoop >
+          <Carousel autoPlay interval="5000" transitionTime="3000" infiniteLoop>
             {/* <section className="container portfolio"> */}
-              {/* <div className="row active-with-click"> */}
-                <HARP></HARP>
-                <RMBW></RMBW>
-                <HoneyDo></HoneyDo>
-                <PSWD_GEN></PSWD_GEN>
-                <WEATHER></WEATHER>
-                <NOTE_TAKER></NOTE_TAKER>
-                {/* <WORK_DAY></WORK_DAY>
+            {/* <div className="row active-with-click"> */}
+            <HARP></HARP>
+            <RMBW></RMBW>
+            <HoneyDo></HoneyDo>
+            <PSWD_GEN></PSWD_GEN>
+            <WEATHER></WEATHER>
+            <NOTE_TAKER></NOTE_TAKER>
+            <WORK_DAY></WORK_DAY>
             <BOOK_MOVIE></BOOK_MOVIE>
             <MOTOR></MOTOR>
             <FOOD_FEST></FOOD_FEST>
             <BUDGET></BUDGET>
             <DeepThoughts></DeepThoughts>
-            <GoogleBooks></GoogleBooks> */}
-              {/* </div> */}
+            <GoogleBooks></GoogleBooks>
+            {/* </div> */}
             {/* </section> */}
-
-            {/* <div className="carousel">
-              <div className="thumbs-wrapper axis-vertical">
-                <ul className="thumbs animated">
-                  <img src={harp_img} alt="" />
-                </ul>
-              </div>
-            </div> */}
           </Carousel>
         </div>
       </>
