@@ -18,11 +18,6 @@ const Links = () => (
   </>
 );
 
-// const Home = (props) => <h1>Home</h1>;
-// const Resume = (props) => <h1>Resume</h1>;
-// const Portfolio = (props) => <h1>Portfolio</h1>;
-// const Contact = (props) => <h1>Contact</h1>;
-
 export default function App() {
   return (
     <Router>
