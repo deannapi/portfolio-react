@@ -16,16 +16,37 @@ import BUDGET from "../portfolio/budget_tracker";
 import DeepThoughts from "../portfolio/deep_thought";
 import GoogleBooks from "../portfolio/google_books";
 
+// import all images
+// import harp_icon from "../images/harp-icon.png";
+// import rmbw from "../images/Restore_Logo_Final trimmed.png";
+// import honeydo from "../images/honeydo.jpg";
+// import pswd_gen from "../images/pswd_gen.jpg";
+// import weather from "../images/weather.jpg";
+// import note_taker from "../images/note_taker.jpg";
+// import workday from "../images/workday.jpg";
+// import book_movie from "../images/book_movie.jpg";
+// import motor from "../images/motor.jpg";
+// import food_fest from "../images/food_fest.jpg";
+// import budget_tracker from "../images/budget.jpg";
+// import deep_thought from "../images/deep_thoughts.jpg";
+// import google_books from "../images/google_books.jpg";
+
 export default class Portfolio extends React.Component {
   render() {
     return (
       <>
         <h2>Portfolio</h2>
         <div className="portfolio-carousel">
-          <Carousel autoPlay interval="5000" transitionTime="3000" infiniteLoop>
+          <Carousel
+            autoPlay
+            interval="5000"
+            transitionTime="3000"
+            infiniteLoop
+            showThumbs={false}
+          >
             {/* <section className="container portfolio"> */}
             {/* <div className="row active-with-click"> */}
-            <HARP></HARP>
+            <HARP ></HARP>
             <RMBW></RMBW>
             <HoneyDo></HoneyDo>
             <PSWD_GEN></PSWD_GEN>
@@ -38,6 +59,7 @@ export default class Portfolio extends React.Component {
             <BUDGET></BUDGET>
             <DeepThoughts></DeepThoughts>
             <GoogleBooks></GoogleBooks>
+
             {/* </div> */}
             {/* </section> */}
           </Carousel>

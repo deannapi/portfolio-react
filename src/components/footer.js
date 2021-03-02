@@ -1,6 +1,6 @@
 import React from "react";
 import stack_ov from "../images/stack-overflow.png";
-import harp_img from "../img/harp-icon.png";
+// import harp_img from "../img/harp-icon.png";
 
 export default class Footer extends React.Component {
   render() {

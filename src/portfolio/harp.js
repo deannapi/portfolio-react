@@ -106,9 +106,9 @@ export default class HARP extends React.Component {
                 </ul>
               </div>
             </div>
-            <a className="mc-btn-action">
+            <button className="mc-btn-action">
               <i className="fa fa-bars"></i>
-            </a>
+            </button>
             <div className="mc-footer">
               <a
                 href="https://github.com/deannapi/harpbydeanna"
@@ -122,7 +122,7 @@ export default class HARP extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fas fa-globe"></i>
+                <i className="fas fa-globe"></i>
               </a>
             </div>
           </article>
