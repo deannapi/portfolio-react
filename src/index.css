@@ -172,9 +172,8 @@ footer ul li {
 
 /* PROJECTS */
 .portfolio-carousel {
-  margin-top: 10px;
   text-align: center;
-  /* height: 100%; */
+  margin: 15px;
 }
 
 .card {
