@@ -38,7 +38,7 @@ export default class Footer extends React.Component {
                   <i className="fab fa-linkedin"></i>
                 </a>
               </li>
-              <li className="harp">
+              {/* <li className="harp">
                 <a
                   href="https://www.harpbydeanna.com"
                   target="_blank"
@@ -51,7 +51,7 @@ export default class Footer extends React.Component {
                     height="40px"
                   ></img>
                 </a>
-              </li>
+              </li> */}
             </ul>
           {/* </div> */}
           {/* <div className="row">

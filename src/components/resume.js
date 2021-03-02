@@ -9,7 +9,7 @@ export default class Resume extends React.Component {
             <h2>Resume</h2>
 
             <a
-              href="https://drive.google.com/file/d/11JGj68zRdn7CB9cwSwq3BoypIQ0jqeQt/view?usp=sharing"
+              href="https://drive.google.com/file/d/1HqgNvNyPtmm09CtjqAM31MpBZAKa4x5s/view?usp=sharing"
               download="Resume"
             >
               Download My Resume
@@ -32,7 +32,7 @@ export default class Resume extends React.Component {
           </div>
         </div>
 
-        <div className="skills" id="skills">
+        {/* <div className="skills" id="skills">
           <h2>Skills</h2>
 
           <div className="front-end">
@@ -108,7 +108,7 @@ export default class Resume extends React.Component {
               <li>Service Worker</li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </>
     );
   }
