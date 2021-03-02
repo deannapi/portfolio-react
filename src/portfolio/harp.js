@@ -73,10 +73,9 @@ export default class HARP extends React.Component {
           <article className="material-card Cyan">
             <h2>
               <span>Harp By DeAnna</span>
-              <strong>
-                {/* <i className="fa fa-fw fa-star"></i> */}
+              {/* <strong>
                 Harp Music Entertainment
-              </strong>
+              </strong> */}
             </h2>
             <div className="mc-content">
               <div className="img-container">
