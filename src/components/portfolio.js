@@ -42,7 +42,6 @@ export default class Portfolio extends React.Component {
             interval="5000"
             transitionTime="3000"
             infiniteLoop
-            // showThumbs={false}
           >
             <HARP>
               <img
