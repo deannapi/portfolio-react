@@ -2,35 +2,58 @@ import React from "react";
 import harp from "../images/harp-icon.png";
 import $ from "jquery";
 
-$(function () {
-  $(".material-card > .mc-btn-action").click(function () {
-    var card = $(this).parent(".material-card");
-    var icon = $(this).children("i");
-    icon.addClass("fa-spin-fast");
+// $(function() {
+//   $('.material-card').materialCard({
+//       icon_close: 'fa-chevron-left',
+//       icon_open: 'fa-thumbs-o-up',
+//       icon_spin: 'fa-spin-fast',
+//       card_activator: 'click'
+//   });
 
-    if (card.hasClass("mc-active")) {
-      card.removeClass("mc-active");
+// //        $('.active-with-click .material-card').materialCard();
 
-      window.setTimeout(function () {
-        icon
-          .removeClass("fa-arrow-left")
-          .removeClass("fa-spin-fast")
-          .addClass("fa-bars");
-      }, 800);
-    } else {
-      card.addClass("mc-active");
+//   window.setTimeout(function() {
+//       $('.material-card:eq(1)').materialCard('open');
+//   }, 2000);
 
-      window.setTimeout(function () {
-        icon
-          .removeClass("fa-bars")
-          .removeClass("fa-spin-fast")
-          .addClass("fa-arrow-left");
-      }, 800);
-    }
+//   $('.material-card').on('shown.material-card show.material-card hide.material-card hidden.material-card', function (event) {
+//       console.log(event.type, event.namespace, $(this));
+//   });
+
+// });
+
+$(function() {
+  $('.material-card > .mc-btn-action').click(function () {
+      var card = $(this).parent('.material-card');
+      var icon = $(this).children('i');
+      icon.addClass('fa-spin-fast');
+
+      if (card.hasClass('mc-active')) {
+          card.removeClass('mc-active');
+
+          window.setTimeout(function() {
+              icon
+                  .removeClass('fa-arrow-left')
+                  .removeClass('fa-spin-fast')
+                  .addClass('fa-bars');
+
+          }, 800);
+      } else {
+          card.addClass('mc-active');
+
+          window.setTimeout(function() {
+              icon
+                  .removeClass('fa-bars')
+                  .removeClass('fa-spin-fast')
+                  .addClass('fa-arrow-left');
+
+          }, 800);
+      }
   });
 });
 
 export default class HARP extends React.Component {
+  
   render() {
     return (
       <>

@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 import { PageTransition } from "@steveeeie/react-page-transition";
 import Home from "./components/home";
 import Header from "./components/header";
@@ -20,7 +20,7 @@ const Links = () => (
 
 export default function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Header></Header>
       <Links />
       <Route
@@ -42,6 +42,6 @@ export default function App() {
         }}
       />
       <Footer></Footer>
-    </Router>
+    </BrowserRouter>
   );
 }
