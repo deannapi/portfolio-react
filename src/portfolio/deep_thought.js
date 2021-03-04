@@ -3,7 +3,7 @@ import deep_thoughts from "../images/deep_thoughts.jpg";
 import $ from "jquery";
 
 $(function () {
-  $(".material-card > .mc-btn-action").click(function () {
+  $(".material-card > .mc-btn-action").on('click',function () {
     var card = $(this).parent(".material-card");
     var icon = $(this).children("i");
     icon.addClass("fa-spin-fast");

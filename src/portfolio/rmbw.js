@@ -3,7 +3,7 @@ import rmbw from "../images/Restore_Logo_Final trimmed.png";
 import $ from "jquery";
 
 $(function () {
-  $(".material-card > .mc-btn-action").click(function () {
+  $(".material-card > .mc-btn-action").on('click',function () {
     var card = $(this).parent(".material-card");
     var icon = $(this).children("i");
     icon.addClass("fa-spin-fast");
