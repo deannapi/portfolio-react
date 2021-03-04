@@ -3,7 +3,7 @@ import harp from "../images/harp-icon.png";
 import $ from "jquery";
 
 $(function() {
-  $('.material-card > .mc-btn-action').on('click',function () {
+  $('.mc-btn-action').on('click',function () {
       var card = $(this).parent('.material-card');
       var icon = $(this).children('i');
       icon.addClass('fa-spin-fast');

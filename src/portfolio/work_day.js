@@ -77,7 +77,7 @@ export default class Work_Day extends React.Component {
                   className="img-responsive"
                   src={work_day}
                   alt=""
-                  // style={{ borderRadius: "46px" }}
+                  style={{ borderRadius: "46px" }}
                 />
               </div>
               <div className="mc-description">
