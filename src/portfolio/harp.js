@@ -1,9 +1,13 @@
 import React from "react";
 import harp from "../images/harp-icon.png";
 import $ from "jquery";
+require('../utils/material-cards');
+
+// const materialCard = require('../utils/material-cards');
 
 $(function() {
   $('.mc-btn-action').on('click',function () {
+    // $('.mc-btn-action').materialCard('open',function () {
       var card = $(this).parent('.material-card');
       var icon = $(this).children('i');
       icon.addClass('fa-spin-fast');
