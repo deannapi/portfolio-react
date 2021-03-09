@@ -31,6 +31,10 @@ $(function () {
   });
 });
 
+const flipCard = async () => {
+  var card = document.getElementById('material-card')
+}
+
 (function ($) {
   var MaterialCard = function (element, options) {
     this.options = options;
