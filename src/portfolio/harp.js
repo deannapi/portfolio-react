@@ -127,7 +127,7 @@ $(function () {
   };
 
   var transitionDurationToMilliseconds = function (duration) {
-    var pieces = duration.match(/^([\d\.]+)(\w+)$/),
+    var pieces = duration.match(/^([d.]+)(w+)$/),
       time,
       unit,
       multiplier;
@@ -144,6 +144,9 @@ $(function () {
       case "s":
         multiplier = 1000;
         break;
+      default:
+        // do nothing
+        console.log('nothing');
     }
     return time * multiplier;
   };
