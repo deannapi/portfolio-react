@@ -1,7 +1,7 @@
 html,
 body,
 #root {
-  height: 290%;
+  height: 100%;
 }
 
 body {
@@ -176,11 +176,11 @@ footer ul li {
   margin: 15px;
 }
 
-.portfolio {
+/* .portfolio {
   text-align: center;
   margin: 10px;
   display: inline-flex;
-}
+} */
 
 /* .card {
   border: #a1793a double 6px;
@@ -401,7 +401,7 @@ label {
   }
    
   #root {
-    height: 280%;
+    /* height: 280%; */
   }
 }
 

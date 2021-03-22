@@ -37,19 +37,19 @@ export default class Portfolio extends React.Component {
       <>
         <h2>Portfolio</h2>
         <div className="portfolio-carousel">
-        <Carousel autoPlay interval="5000" transitionTime="3000" infiniteLoop>
-          {/* <div className="row portfolio"> */}
+          <Carousel autoPlay interval="5000" transitionTime="3000" infiniteLoop>
+            {/* <div className="row portfolio"> */}
             <HARP>
               <img
                 src={harp_icon}
-                alt=""
+                alt="harp"
                 style={{ width: "40px", height: "50px" }}
               />
             </HARP>
             <RMBW>
               <img
                 src={rmbw}
-                alt=""
+                alt="massage"
                 style={{ width: "40px", height: "50px" }}
               />
             </RMBW>
@@ -130,9 +130,8 @@ export default class Portfolio extends React.Component {
                 style={{ width: "40px", height: "50px" }}
               />
             </GoogleBooks>
-          {/* </div> */}
-        </Carousel>
-
+            {/* </div> */}
+          </Carousel>
         </div>
       </>
     );
