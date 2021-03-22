@@ -1,7 +1,7 @@
 html,
 body,
 #root {
-  height: 100%;
+  height: 290%;
 }
 
 body {
@@ -176,10 +176,15 @@ footer ul li {
   margin: 15px;
 }
 
-.card {
+.portfolio {
+  text-align: center;
+  margin: 10px;
+  display: inline-flex;
+}
+
+/* .card {
   border: #a1793a double 6px;
   border-radius: 25px;
-  /* border-color: #a1793a 8px; */
   width: 14rem;
   align-items: center;
   text-align: center;
@@ -209,12 +214,11 @@ footer ul li {
 ul li,
 a {
   color: white;
-}
+} */
 
-.card-img-top {
+/* .card-img-top {
   width: 12em;
-  /* height: 150px; */
-}
+} */
 
 .fa-github {
   font-size: 26px;
