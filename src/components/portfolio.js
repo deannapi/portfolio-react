@@ -36,9 +36,9 @@ export default class Portfolio extends React.Component {
     return (
       <>
         <h2>Portfolio</h2>
-        {/* <div className="portfolio-carousel"> */}
-        {/* <Carousel autoPlay interval="5000" transitionTime="3000" infiniteLoop> */}
-          <div className="row portfolio">
+        <div className="portfolio-carousel">
+        <Carousel autoPlay interval="5000" transitionTime="3000" infiniteLoop>
+          {/* <div className="row portfolio"> */}
             <HARP>
               <img
                 src={harp_icon}
@@ -130,10 +130,10 @@ export default class Portfolio extends React.Component {
                 style={{ width: "40px", height: "50px" }}
               />
             </GoogleBooks>
-          </div>
-        {/* </Carousel> */}
+          {/* </div> */}
+        </Carousel>
 
-        {/* </div> */}
+        </div>
       </>
     );
   }
