@@ -185,11 +185,11 @@ footer ul li {
 .card {
   border: #a1793a double 6px;
   border-radius: 25px;
-  width: 14rem;
+  width: 20em;
   align-items: center;
   text-align: center;
   background-color: black;
-  margin: 10px;
+  margin: auto;
 }
 
 .card-title {
@@ -219,15 +219,6 @@ a {
 
 .card-body a i {
   padding-right: 5px;
-}
-
-.carousel .slide img {
-  /* width: 62%; */
-}
-
-.card {
-  width: 60%;
-  margin: auto;
 }
 
 .fa-github {
@@ -409,10 +400,7 @@ label {
 
   footer {
     width: 100%;
-  }
-
-
-   
+  }   
 }
 
 /* PORTFOLIO CSS CARDS */
@@ -440,8 +428,6 @@ label {
     transform: rotate(359deg);
   }
 }
-
-
 
 .material-card {
   position: relative;
