@@ -1,7 +1,7 @@
 import React from "react";
 import harp from "../images/harp-icon.png";
 import $ from "jquery";
-var jQuery = require("jquery");
+// var jQuery = require("jquery");
 
 $(function () {
   $(".material-card > .mc-btn-action").on("click", function () {
