@@ -12,5 +12,5 @@ My web developer portfolio that was created using REACT.
 
 [Check Out My Portfolio!](https://www.deannapi.com)
 
-![](port-screenshot.jpg)
+![](portfolio-home.png)
 </div>
