@@ -176,7 +176,7 @@ footer ul li {
   margin: 15px;
 }
 
-.portfolio {
+/* .portfolio {
   text-align: center;
   margin: 10px;
   display: inline-flex;
@@ -186,10 +186,15 @@ footer ul li {
   border: #a1793a double 6px;
   border-radius: 25px;
   width: 20em;
+  display: inline-flex;
   align-items: center;
   text-align: center;
-  background-color: black;
   margin: auto;
+}
+
+.thumb {
+  background: whitesmoke;
+  border-radius: 15px;
 }
 
 .card-title {
