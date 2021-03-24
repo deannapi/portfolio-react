@@ -1,5 +1,5 @@
 import React from "react";
-import note_taker from "../images/note_taker.jpg";
+import note_taker from "../images/notetaker.png";
 // import $ from "jquery";
 // var jQuery = require("jquery");
 

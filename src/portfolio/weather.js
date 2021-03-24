@@ -199,14 +199,14 @@ export default class WEATHER extends React.Component {
 
           <div className="card-body">
             <a
-              href="https://deannapi.github.io/weather-app/"
+              href="https://github.com/deannapi/weather-app"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i className="fab fa-github"></i>
             </a>
             <a
-              href="https://github.com/deannapi/weather-app"
+              href="https://deannapi.github.io/weather-app/"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -196,14 +196,14 @@ export default class BookMovie extends React.Component {
 
           <div className="card-body">
             <a
-              href="https://github.com/jpd61/project-1-group-5"
+              href="https://github.com/deannapi/book_movie_finder"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i className="fab fa-github"></i>
             </a>
             <a
-              href="https://ut-project-1-group-5.github.io/project-1-group-5/"
+              href="https://book-movie-finder.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >

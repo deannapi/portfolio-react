@@ -19,12 +19,12 @@ import GoogleBooks from "../portfolio/google_books";
 // import all images
 import harp_icon from "../images/harp-icon.png";
 import rmbw from "../images/Restore_Logo_Final trimmed.png";
-import honeydo from "../images/honeydo.jpg";
-import pswd_gen from "../images/pswd_gen.jpg";
-import weather from "../images/weather.jpg";
-import note_taker from "../images/note_taker.jpg";
-import workday from "../images/workday.jpg";
-import book_movie from "../images/book_movie.jpg";
+import honeydo from "../images/honeydolist_trim.png";
+import pswd_gen from "../images/pswdgen_trim.png";
+import weather from "../images/weather_trim.png";
+import notetaker from "../images/notetaker_trim.png";
+import workday from "../images/workday_trim.png";
+import book_movie from "../images/bookmovie_trim.png";
 import motor from "../images/motor.jpg";
 import food_fest from "../images/food_fest.jpg";
 import budget_tracker from "../images/budget.jpg";
@@ -38,99 +38,85 @@ export default class Portfolio extends React.Component {
         <h2>Portfolio</h2>
         <div className="portfolio-carousel">
           <Carousel autoPlay interval="5000" transitionTime="3000" infiniteLoop>
-            {/* <div className="row portfolio"> */}
             <HARP>
               <img
                 src={harp_icon}
                 alt="harp"
-                style={{ width: "40px", height: "50px" }}
+                id="harp-thumb"
               />
             </HARP>
             <RMBW>
               <img
                 src={rmbw}
                 alt="massage"
-                style={{ width: "40px", height: "50px" }}
               />
             </RMBW>
             <HoneyDo>
               <img
                 src={honeydo}
                 alt=""
-                style={{ width: "40px", height: "50px" }}
               />
             </HoneyDo>
             <PSWD_GEN>
               <img
                 src={pswd_gen}
                 alt=""
-                style={{ width: "40px", height: "50px" }}
               />
             </PSWD_GEN>
             <WEATHER>
               <img
                 src={weather}
                 alt=""
-                style={{ width: "40px", height: "50px" }}
               />
             </WEATHER>
             <NOTE_TAKER>
               <img
-                src={note_taker}
+                src={notetaker}
                 alt=""
-                style={{ width: "40px", height: "50px" }}
               />
             </NOTE_TAKER>
             <WORK_DAY>
               <img
                 src={workday}
                 alt=""
-                style={{ width: "40px", height: "50px" }}
               />
             </WORK_DAY>
             <BOOK_MOVIE>
               <img
                 src={book_movie}
                 alt=""
-                style={{ width: "40px", height: "50px" }}
               />
             </BOOK_MOVIE>
             <MOTOR>
               <img
                 src={motor}
                 alt=""
-                style={{ width: "40px", height: "50px" }}
               />
             </MOTOR>
             <FOOD_FEST>
               <img
                 src={food_fest}
                 alt=""
-                style={{ width: "40px", height: "50px" }}
               />
             </FOOD_FEST>
             <BUDGET>
               <img
                 src={budget_tracker}
                 alt=""
-                style={{ width: "40px", height: "50px" }}
               />
             </BUDGET>
             <DeepThoughts>
               <img
                 src={deep_thought}
                 alt=""
-                style={{ width: "40px", height: "50px" }}
               />
             </DeepThoughts>
             <GoogleBooks>
               <img
                 src={google_books}
                 alt=""
-                style={{ width: "40px", height: "50px" }}
               />
             </GoogleBooks>
-            {/* </div> */}
           </Carousel>
         </div>
       </>
