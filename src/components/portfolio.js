@@ -15,6 +15,7 @@ import FOOD_FEST from "../portfolio/food_fest";
 import BUDGET from "../portfolio/budget_tracker";
 import DeepThoughts from "../portfolio/deep_thought";
 import GoogleBooks from "../portfolio/google_books";
+import CF432 from "../portfolio/cf432";
 
 // import all images
 import harp_icon from "../images/harp-icon.png";
@@ -30,6 +31,7 @@ import food_fest from "../images/food_fest.jpg";
 import budget_tracker from "../images/budget.jpg";
 import deep_thought from "../images/deep_thoughts.jpg";
 import google_books from "../images/google_books.jpg";
+import cf_432 from "../images/cf432.jpg";
 
 export default class Portfolio extends React.Component {
   render() {
@@ -39,83 +41,46 @@ export default class Portfolio extends React.Component {
         <div className="portfolio-carousel">
           <Carousel autoPlay interval="5000" transitionTime="3000" infiniteLoop>
             <HARP>
-              <img
-                src={harp_icon}
-                alt="harp"
-                id="harp-thumb"
-              />
+              <img src={harp_icon} alt="harp" id="harp-thumb" />
             </HARP>
             <RMBW>
-              <img
-                src={rmbw}
-                alt="massage"
-              />
+              <img src={rmbw} alt="massage" />
             </RMBW>
             <HoneyDo>
-              <img
-                src={honeydo}
-                alt=""
-              />
+              <img src={honeydo} alt="" />
             </HoneyDo>
+            <CF432>
+              <img src={cf_432} alt="cf432" />
+            </CF432>
             <PSWD_GEN>
-              <img
-                src={pswd_gen}
-                alt=""
-              />
+              <img src={pswd_gen} alt="" />
             </PSWD_GEN>
             <WEATHER>
-              <img
-                src={weather}
-                alt=""
-              />
+              <img src={weather} alt="" />
             </WEATHER>
             <NOTE_TAKER>
-              <img
-                src={notetaker}
-                alt=""
-              />
+              <img src={notetaker} alt="" />
             </NOTE_TAKER>
             <WORK_DAY>
-              <img
-                src={workday}
-                alt=""
-              />
+              <img src={workday} alt="" />
             </WORK_DAY>
             <BOOK_MOVIE>
-              <img
-                src={book_movie}
-                alt=""
-              />
+              <img src={book_movie} alt="" />
             </BOOK_MOVIE>
             <MOTOR>
-              <img
-                src={motor}
-                alt=""
-              />
+              <img src={motor} alt="" />
             </MOTOR>
             <FOOD_FEST>
-              <img
-                src={food_fest}
-                alt=""
-              />
+              <img src={food_fest} alt="" />
             </FOOD_FEST>
             <BUDGET>
-              <img
-                src={budget_tracker}
-                alt=""
-              />
+              <img src={budget_tracker} alt="" />
             </BUDGET>
             <DeepThoughts>
-              <img
-                src={deep_thought}
-                alt=""
-              />
+              <img src={deep_thought} alt="" />
             </DeepThoughts>
             <GoogleBooks>
-              <img
-                src={google_books}
-                alt=""
-              />
+              <img src={google_books} alt="" />
             </GoogleBooks>
           </Carousel>
         </div>
