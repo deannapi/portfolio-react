@@ -36,14 +36,10 @@ export default function Home() {
           Motivated Full Stack Web Developer with a strong background in
           mathematics and data analytics. Passionate about building first-class
           web applications, writing and testing code, troubleshooting issues and
-          implementing new techniques. Keen interest in object-oriented
-          programming and software development. Equipped with a diverse
+          implementing new techniques. Equipped with a diverse
           skill-set and proven ability to deliver desired results. I am
           accomplished in the development of algorithms, problem solving and
-          building responsive websites and applications. With a strong knowledge
-          of HTML, CSS, REACT, JavaScript and creating back-end connections, I
-          am confident that I will fulfill the duties and skills required for a
-          developer role.
+          building responsive websites and applications. 
         </p>
       </div>
     </div>

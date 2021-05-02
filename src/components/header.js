@@ -7,7 +7,7 @@ export default class Header extends React.Component {
       <>
         {/* <div className="header-main"> */}
           <header>
-            <h1 className="my-name">DeAnna Martinez</h1>
+            <h1 className="my-name">DeAnna Barker</h1>
             {/* <ul>
               <li>
                 <Link to="/">Home</Link>
