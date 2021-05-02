@@ -1,5 +1,5 @@
 import React from "react";
-import cf432 from "../images/cf432.jpg";
+import cf432 from "../images/logo432.jpg";
 
 export default class CF432 extends React.Component {
   render() {

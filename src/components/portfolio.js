@@ -31,7 +31,7 @@ import food_fest from "../images/food_fest.jpg";
 import budget_tracker from "../images/budget.jpg";
 import deep_thought from "../images/deep_thoughts.jpg";
 import google_books from "../images/google_books.jpg";
-import cf_432 from "../images/cf432.jpg";
+import cf_432 from "../images/logo432.jpg";
 
 export default class Portfolio extends React.Component {
   render() {
