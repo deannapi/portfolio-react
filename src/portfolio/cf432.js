@@ -8,7 +8,7 @@ export default class CF432 extends React.Component {
         <div className="card">
           <div className="card-body">
             <h5 className="card-title">Crossfit 432</h5>
-            <img className="card-img-top" src={budget} alt="" />
+            <img className="card-img-top" src={cf432} alt="" />
             <p className="card-text">
               Website for gym Crossfit 432
             </p>
