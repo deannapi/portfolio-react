@@ -15,7 +15,7 @@ import FOOD_FEST from "../portfolio/food_fest";
 import BUDGET from "../portfolio/budget_tracker";
 import DeepThoughts from "../portfolio/deep_thought";
 import GoogleBooks from "../portfolio/google_books";
-import CF432 from "../portfolio/cf432";
+// import CF432 from "../portfolio/cf432";
 
 // import all images
 import harp_icon from "../images/harp-icon.png";
@@ -31,7 +31,7 @@ import food_fest from "../images/food_fest.jpg";
 import budget_tracker from "../images/budget.jpg";
 import deep_thought from "../images/deep_thoughts.jpg";
 import google_books from "../images/google_books.jpg";
-import cf_432 from "../images/logo432.jpg";
+// import cf_432 from "../images/logo432.jpg";
 
 export default class Portfolio extends React.Component {
   render() {
@@ -49,9 +49,9 @@ export default class Portfolio extends React.Component {
             <HoneyDo>
               <img src={honeydo} alt="" />
             </HoneyDo>
-            <CF432>
+            {/* <CF432>
               <img src={cf_432} alt="cf432" />
-            </CF432>
+            </CF432> */}
             <PSWD_GEN>
               <img src={pswd_gen} alt="" />
             </PSWD_GEN>
