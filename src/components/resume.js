@@ -8,14 +8,14 @@ export default class Resume extends React.Component {
           <div className="education">
             <h2>Resume</h2>
 
-            <a
+            {/* <a
               href="https://1drv.ms/w/s!AizBMEzAPLH0nzDkXH0YwMqBgqAV?e=pWJlFj"
               download="Resume"
               target="_blank"
               rel="noopener  noreferrer"
             >
               Download My Resume
-            </a>
+            </a> */}
 
             <div className="degrees">
               <p className="school-name">

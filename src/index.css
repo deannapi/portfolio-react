@@ -12,7 +12,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  /* background-color: black; */
 }
 
 h1,
@@ -23,12 +23,22 @@ h3 {
   text-align: center;
   margin: 0;
   background: #a1793a;
-  color: whitesmoke;
+  color: black;
+}
+
+h5 {
+  font-variant: small-caps;
+  font-family: "papyrus";
+  text-align: center;
+  background: black;
+  color: white;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 p {
   font-family: "Copperplate Gothic Light";
-  color: white;
+  /* color: white; */
 }
 
 code {
@@ -51,12 +61,12 @@ header {
   /* display: block; */
   padding-right: 10px;
   margin-left: 15px;
-  color: #a1793a;
+  color: black;
   font-variant: small-caps;
 }
 
 .links:hover {
-  color: whitesmoke;
+  color: #a1793a;
 }
 
 li {
@@ -69,10 +79,7 @@ h4 {
   font-size: 20px;
 }
 
-h5 {
-  text-align: center;
-  color: white;
-}
+
 
 /* FOOTER */
 /* .instagram .fab {
@@ -143,13 +150,16 @@ footer ul li {
 
 /* ABOUT ME */
 .about-me {
-  /* display: inline-flex; */
+  /* display:inline; */
   align-items: center;
 }
 
 .about-body {
   display: inline-flex;
   align-items: center;
+  width: 75%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .profile-pic {
@@ -337,6 +347,23 @@ label {
 
 #contact-form div a:hover {
   color: #a3507e;
+}
+
+/* EXPERIENCE */
+.job_title {
+  float: left;
+  color: #a1793a;
+}
+
+.job_date {
+  float: right;
+  color: #a1793a;
+}
+
+.row {
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 /*MEDIA QUERY FOR SMALL DESKTOP SCREENS AND SMALLER */
