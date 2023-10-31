@@ -1,18 +1,16 @@
 html,
 body,
 #root {
-  height: 100%;
+  height: 250vh;
 }
 
 body {
   margin: 0;
-  height: 100vh;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: black; */
 }
 
 h1,
@@ -24,6 +22,10 @@ h3 {
   margin: 0;
   background: #a1793a;
   color: black;
+}
+
+h4 {
+  color: #a1793a;
 }
 
 h5 {
@@ -38,7 +40,6 @@ h5 {
 
 p {
   font-family: "Copperplate Gothic Light";
-  /* color: white; */
 }
 
 code {
@@ -58,7 +59,6 @@ header {
 
 .links {
   text-align: center;
-  /* display: block; */
   padding-right: 10px;
   margin-left: 15px;
   color: black;
@@ -82,15 +82,6 @@ h4 {
 
 
 /* FOOTER */
-/* .instagram .fab {
-  font-size: 40px;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-  -webkit-background-clip: text;
-  font-weight: bold;
-  -webkit-text-fill-color: transparent;
-  padding: 3px;
-} */
-
 .github .fab {
   color: white;
   font-size: 40px;
@@ -133,10 +124,6 @@ footer {
   text-align: center;
   background: #a1793a;
   position: relative;
-  /* bottom: 0;
-  left: 0;
-  width: 100%; */
-  /* flex-shrink: 0; */
 }
 
 footer ul {
@@ -150,7 +137,6 @@ footer ul li {
 
 /* ABOUT ME */
 .about-me {
-  /* display:inline; */
   align-items: center;
 }
 
@@ -288,42 +274,12 @@ button {
 
 .skills {
   text-align: center;
-}
-
-.skills div {
-  display: inline-table;
-  padding: 5px 10px 5px;
-  width: 150px;
-  height: 275px;
-  margin: 0 25px 0 25px;
-  border: #a1793a 2px solid;
-}
-
-.skills h4 {
-  padding: 3px;
-  text-align: center;
-  height: 45px;
-  margin: 3px 0 3px 0;
-  width: 100%;
-  background: #b54a85;
-  color: white;
+  font-family: "Copperplate Gothic Light";
 }
 
 .skills ul {
-  padding: 3px 10px 3px 10px;
-  margin: 2px;
+  justify-content: space-evenly;
 }
-
-.skills ul li {
-  /* font-variant: small-caps; */
-  font-family: "Copperplate Gothic Light";
-  font-size: 14px;
-}
-
-.degrees {
-  display: inline;
-}
-
 /* CONTACT FORM */
 form {
   text-align: center;
@@ -350,18 +306,22 @@ label {
 }
 
 /* EXPERIENCE */
-.job_title {
-  float: left;
-  color: #a1793a;
+.experience {
+  display: grid;
 }
 
-.job_date {
-  float: right;
-  color: #a1793a;
+.job_bullets {
+  margin-left: 15%;
+  margin-right: 10%;
+  font-size: 14px;
+}
+
+li {
+  list-style-type:disc;
 }
 
 .row {
-  display: block;
+  justify-content: space-between;
   margin-left: 10%;
   margin-right: 10%;
 }

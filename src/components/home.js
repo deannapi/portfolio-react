@@ -1,6 +1,7 @@
 import React from "react";
 import selfie from "../img/wavySelfie.jpg";
 import TextTransition, { presets } from "react-text-transition";
+import Resume from "./resume";
 
 const TEXTS = ["Data Analyst", "Power BI Developer", "Mathematician"];
 
@@ -80,19 +81,26 @@ export default function Home() {
         </p>
       </div>
 
-      <h5>Relevant Experience</h5>
-      <div className="experience">
-        <div className="row">
-          <div className="column job_title">
-            <h4>
-              <b>Power BI Developer</b>
-            </h4>
-          </div>
-          <div className="column job_date">
-            <p>January 2022 - Current</p>
-          </div>
-        </div>
+      <div className="skills">
+        <h5>Skills</h5>
+        <ul className="row">
+          <li>Python</li>
+          <li>PowerApps</li>
+          <li>Power Automate</li>
+          </ul>
+          <ul className="row">
+          <li>Power BI</li>
+          <li>SQL Server</li>
+          <li>Oracle</li>
+          </ul>
+          <ul className="row">
+          <li>REACT - HTML, CSS, JavaScript</li>
+          <li>Microsoft Excel - VBA, Pivot</li>
+          <li>DAX</li>
+        </ul>
       </div>
+
+       <Resume />
     </div>
   );
 }
