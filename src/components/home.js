@@ -2,6 +2,7 @@ import React from "react";
 import selfie from "../img/wavySelfie.jpg";
 import TextTransition, { presets } from "react-text-transition";
 import Resume from "./resume";
+import Contact from "./contact";
 
 const TEXTS = ["Data Analyst", "Power BI Developer", "Mathematician"];
 
@@ -25,6 +26,8 @@ export default function Home() {
           inline
         />
       </h3>
+
+      <Contact/>
 
       <div className="about-body">
         <img className="profile-pic" src={selfie} alt="selfie" height="220px" />

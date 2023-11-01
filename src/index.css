@@ -1,7 +1,7 @@
 html,
 body,
 #root {
-  height: 250vh;
+  height: 220vh;
 }
 
 body {
@@ -282,11 +282,12 @@ button {
 }
 /* CONTACT FORM */
 form {
-  text-align: center;
+  
+  /* display: inline-flex; */
 }
 
 form div {
-  padding: 8px;
+  text-align: center;
 }
 
 label {
