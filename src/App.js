@@ -3,9 +3,9 @@ import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 import { PageTransition } from "@steveeeie/react-page-transition";
 import Home from "./components/home";
 import Header from "./components/header";
-import Resume from "./components/resume";
+// import Resume from "./components/resume";
 import Portfolio from "./components/portfolio";
-import Contact from "./components/contact";
+// import Contact from "./components/contact";
 import Footer from "./components/footer";
 import "./App.css";
 
