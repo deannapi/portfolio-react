@@ -9,8 +9,12 @@ import "./App.css";
 
 const Links = () => (
   <>
-    <Link to="/" className="links">Home</Link>
-    <Link to="/portfolio" className="links">Portfolio</Link>
+    <Link to="/" className="links">
+      Home
+    </Link>
+    <Link to="/portfolio" className="links">
+      Portfolio
+    </Link>
   </>
 );
 

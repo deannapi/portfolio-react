@@ -1,7 +1,11 @@
-html,
-body,
-#root {
-  height: 220vh;
+
+
+* { padding: 0; margin: 0; }
+html, body, #fullheight, #root {
+    min-height: 100% !important;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 body {
@@ -335,6 +339,7 @@ li {
 @media screen and (max-width: 768px) {
   footer {
     width: 100%;
+    position: absolute;
   }
 
   header {
@@ -348,12 +353,16 @@ li {
   .about-me {
     font-size: 12px;
     display: inline-block;
-    margin: 20px;
     text-align: center;
   }
 
+  .about-body {
+    margin: 0%;
+    display: inline-block;
+  }
+
   .profile-pic {
-    height: 175px;
+    height: 125px;
   }
 
   h1 {
@@ -369,6 +378,11 @@ li {
 
   .card {
     width: 80%;
+  }
+
+  ul li {
+    font-size: 10px;
+    text-align: left;
   }
 
 }

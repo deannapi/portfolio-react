@@ -18,7 +18,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="about-me">
+    <div className="about-me" id="fullheight">
       <h3>
         <TextTransition
           text={TEXTS[index % TEXTS.length]}
@@ -27,7 +27,7 @@ export default function Home() {
         />
       </h3>
 
-      <Contact/>
+      <Contact />
 
       <div className="about-body">
         <img className="profile-pic" src={selfie} alt="selfie" height="220px" />
@@ -48,62 +48,7 @@ export default function Home() {
         </p>
       </div>
 
-      <div>
-        <h5>Education</h5>
-        <p className="school-name">
-          Bachelor's of Science in Mathematics
-          <span>&bull;</span> <em className="date">May 2008</em>
-        </p>
-        <p className="school-name">
-          Master's of Arts in Mathematics
-          <span>&bull;</span> <em className="date">May 2013</em>
-        </p>
-      </div>
-
-      <div>
-        <h5>Professional Development</h5>
-        <p className="school-name">
-          Microsoft Certified Power BI Data Analyst
-          <span>&bull;</span> <em className="date">July 2023</em>
-        </p>
-        <p className="school-name">
-          Attaining Data-Driven Insights with Snowflake and Microsoft Power BI
-          <span>&bull;</span> <em className="date">2022</em>
-        </p>
-        <p className="school-name">
-          Zero To Snowflake
-          <span>&bull;</span> <em className="date">2022</em>
-        </p>
-        <p className="school-name">
-          Snowflake Data Warehousing Workshop
-          <span>&bull;</span> <em className="date">2022</em>
-        </p>
-        <p className="school-name">
-          Full Stack Web Developer Certificate
-          <span>&bull;</span> <em className="date">September 2020</em>
-        </p>
-      </div>
-
-      <div className="skills">
-        <h5>Skills</h5>
-        <ul className="row">
-          <li>Python</li>
-          <li>PowerApps</li>
-          <li>Power Automate</li>
-          </ul>
-          <ul className="row">
-          <li>Power BI</li>
-          <li>SQL Server</li>
-          <li>Oracle</li>
-          </ul>
-          <ul className="row">
-          <li>REACT - HTML, CSS, JavaScript</li>
-          <li>Microsoft Excel - VBA, Pivot</li>
-          <li>DAX</li>
-        </ul>
-      </div>
-
-       <Resume />
+      <Resume />
     </div>
   );
 }

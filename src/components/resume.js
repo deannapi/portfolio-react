@@ -4,6 +4,60 @@ export default class Resume extends React.Component {
   render() {
     return (
       <>
+        <div>
+          <h5>Education</h5>
+          <p className="school-name">
+            Bachelor's of Science in Mathematics
+            <span>&bull;</span> <em className="date">May 2008</em>
+          </p>
+          <p className="school-name">
+            Master's of Arts in Mathematics
+            <span>&bull;</span> <em className="date">May 2013</em>
+          </p>
+        </div>
+
+        <div>
+          <h5>Professional Development</h5>
+          <p className="school-name">
+            Microsoft Certified Power BI Data Analyst
+            <span>&bull;</span> <em className="date">July 2023</em>
+          </p>
+          <p className="school-name">
+            Attaining Data-Driven Insights with Snowflake and Microsoft Power BI
+            <span>&bull;</span> <em className="date">2022</em>
+          </p>
+          <p className="school-name">
+            Zero To Snowflake
+            <span>&bull;</span> <em className="date">2022</em>
+          </p>
+          <p className="school-name">
+            Snowflake Data Warehousing Workshop
+            <span>&bull;</span> <em className="date">2022</em>
+          </p>
+          <p className="school-name">
+            Full Stack Web Developer Certificate
+            <span>&bull;</span> <em className="date">September 2020</em>
+          </p>
+        </div>
+
+        <div className="skills">
+          <h5>Skills</h5>
+          <ul className="row">
+            <li>Python</li>
+            <li>PowerApps</li>
+            <li>Power Automate</li>
+          </ul>
+          <ul className="row">
+            <li>Power BI</li>
+            <li>SQL Server</li>
+            <li>Oracle</li>
+          </ul>
+          <ul className="row">
+            <li>REACT - HTML, CSS, JavaScript</li>
+            <li>Microsoft Excel - VBA, Pivot</li>
+            <li>DAX</li>
+          </ul>
+        </div>
         <h5>Relevant Experience</h5>
         <div className="experience">
           <div className="row">
@@ -367,10 +421,10 @@ export default class Resume extends React.Component {
           <div className="row">
             <i>
               Additional Experience:
-              <br></br> Mathematics Professor at University of
-              Texas of the Permian Basin and at Odessa College, 8/2015 –
-              12/2019; <br></br>Math Teacher/ Educator at Permian High School, 7/2008 –
-              8/2013 and 8/2015 -12/ 2017.
+              <br></br> Mathematics Professor at University of Texas of the
+              Permian Basin and at Odessa College, 8/2015 – 12/2019; <br></br>
+              Math Teacher/ Educator at Permian High School, 7/2008 – 8/2013 and
+              8/2015 -12/ 2017.
             </i>
           </div>
         </div>
